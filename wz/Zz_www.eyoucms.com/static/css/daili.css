@@ -1,0 +1,151 @@
+
+
+.center_daili {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box_tit {
+    text-align: center;
+}
+
+.box_tit span {
+    font-size: 36px;
+    color: #666;
+    line-height: 160%;
+    display: block;
+    font-weight: 700;
+}
+
+
+
+.join_box4 {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.join_box4 .box {
+    margin-top: 50px;
+}
+
+.join_box4 .box li {
+    width: 23%;
+    float: left;
+    border: 1px solid #ddd;
+    margin-right: 2.66%;
+    padding: 50px 0;
+}
+
+.join_box4 .box li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.join_box4 .box li img {
+    display: block;
+    margin: 0 auto;
+}
+
+.join_box4 .box li span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.join_box4 .box li p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.join_box7 {
+    padding: 50px 0;
+}
+
+.join_box7 .box {
+    margin-top: 50px;
+}
+
+.join_box7 .box img {
+    display: block;
+}
+
+.join_box7 .box a {
+    display: block;
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff6f06;
+    transition: .2s;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.edl_box5 {
+    background: #f8f8fa;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.edl_box5 .box {
+    margin-top: 30px;
+}
+
+.edl_box5 .box li {
+    width: 23%;
+    float: left;
+    margin-right: 2.66%;
+    border: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.edl_box5 .box li a .imgauto {
+    width: 100%;
+    height: 110px;
+    padding: 5px;
+    background: #fff;
+}
+
+.edl_box5 .box li a .imgauto img {
+    width: 100%;
+    height: 100%;
+}
+
+.edl_box5 .box li:nth-child(4n) {
+    margin-right: 0;
+}
+.daili_bj_wt {
+    background: #fff;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.daili_bj_wt .panel-group {
+    background: #fff;
+}
+
+@media (max-width:640px) {
+.vipbuy{
+	margin-top:0px
+}
+.center_daili {
+    width: 100%;
+    margin: 0 auto;
+}
+.join_box4 .box li {
+    width: 50%;
+    border: none;
+    margin-right: 0;
+    padding: 20px 0;
+}
+.edl_box5 .box li {
+    width: 49%;
+    margin-right: 2%;
+    border: 1px solid #eee;
+    margin-top: 20px;
+}
+.edl_box5 .box li:nth-child(2n) {
+    margin-right: 0;
+}
+}

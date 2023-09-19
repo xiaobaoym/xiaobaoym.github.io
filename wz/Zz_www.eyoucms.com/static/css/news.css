@@ -1,0 +1,180 @@
+
+
+.videos{}
+
+.videos .ey-news .ey-news-list ul li{width: 50%; float: left;position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;}
+
+.videos .ey-news .ey-news-list ul li p{font-size:14px;font-weight:normal;margin:5px auto; text-align: center;}
+.videos .ey-news .ey-news-list{ padding: 30px 10px; }
+
+
+@media (max-width: 640px) {
+.videos .ey-news .ey-news-list ul li{width: 100%; }
+}
+
+
+
+
+
+.formbox {
+margin: 0px 0px 0px;
+padding: 0;
+border-width: 1px;
+border-style: solid;
+border-color: #dadada #dadada #dadada #dadada;
+-webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,.05);
+-moz-box-shadow: 4px 4px 2px 2px rgba(0,0,0,.05);
+box-shadow: 4px 4px 2px 2px rgba(0,0,0,.05);
+width:780px;
+position:absolute;
+top:50%;
+left:50%;
+margin-left:-390px;
+margin-top:-180px;
+background:#fff;
+}
+.formbox .wrap{ padding:10px;}
+.formbox .pic{ float:left; margin-right:10px; display:inline; width:243px; overflow:hidden}
+.formbox .pic img{ border:1px solid #ccc; padding:1px; width:238px;}
+.formbox .pic p{}
+.formbox .txt h2{ font-family:"微软雅黑 light"; font-size:19px; line-height:36px; padding-top: 0px; margin-top: 0px;}
+
+.formbox .txt { line-height:24px; float:left;}
+
+
+.order-list li{ position: relative; }
+
+.wb-triangle-down:before {
+    content: "\f18f";
+}
+
+
+
+.order-list li .dropdown-menu a {
+    width: 50%;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 2;
+    float: left;
+    color: #5e7387;
+    text-decoration: none;
+    cursor: pointer;
+}
+.order-list li .dropdown-menu a:hover {
+    color: #ff6f06;
+}
+.order-list li .dropdown-menu a.cur{color: #ff6f06;}
+.btn-xs{padding: 3px 8px;}
+
+@media (min-width: 768px){
+.order-list {
+    position: relative;
+    top: -2px;
+}
+}
+@media (max-width: 480px){
+
+.btn-xs{display: none; border-radius: 0px; }
+
+}
+.order-list li.inline-block{ margin-left: 5px; margin-top: 14px; }
+.order-list li.inline-block.c{ margin-left: 2px;}
+.pricex{ color: #ff0000; float: right; }
+
+
+
+
+.cate-tab {
+    width: 100%;
+    min-width: 1240px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5
+}
+.cate-tab.solid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+.cate-tab-sub {
+    margin-left: -2px;
+    display: inline-block;
+    width: 1200px;
+    position: relative
+}
+
+.cate-tab-list {
+    width: 1200px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: unset;
+}
+
+.cate-tab-item {
+    margin-left: 2px;
+    display: inline-block;
+    position: relative;
+    padding: 16px 12px;
+}
+.cate-tab-item a{
+    padding: 14px 12px;
+    font-size: 20px;
+    color: #666;
+    cursor: pointer;
+}
+.cate-tab-item a.active {
+    color: #ff6f06 ;
+    border-bottom: 4px solid #ff6f06 
+}
+
+
+.course-list{
+    margin-top: -16px;
+    margin-right: -16px;
+    margin-bottom: 20px;
+}
+.course-list .course-item {
+    overflow: hidden;
+    float: left;
+    width: 32%;
+    height: auto;
+    padding-right: 0 !important;
+    margin-top: 15px;
+    margin-right: 2%;
+    text-align: left;
+    border-bottom: 1px dotted #eee;
+    transition: all .5s ease;
+}
+.course-list .course-item:nth-child(3n) {
+    margin-right: 0;
+}
+.course-list .course-item .course-title {
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: block;
+    width: auto;
+    height: 24px;
+    line-height: 14px;
+    padding: 0 10px 0 0;
+    color: #64686a;
+    font-size: 15px;
+}
+.course-list .course-item p{
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}

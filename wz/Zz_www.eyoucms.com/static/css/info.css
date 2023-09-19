@@ -1,0 +1,125 @@
+.info-top{background:#fff;padding:15px 15px 30px 15px;overflow:hidden;}
+.info-top .pics{width:345px;height:420px;overflow:hidden;border:1px #eee solid;padding:8px;
+	float:left;
+}
+.info-top .img{height:420px;overflow:hidden;}
+.info-top .pics img{width:345px;display:block;}
+.info-top .content-nr{float:left;width:520px;margin-left:30px;overflow:hidden;}
+.info-top .content-nr h2{font-size:20px;font-weight:700;line-height:30px;padding:15px 0 5px 0;display:block;padding-right:30px;margin:0;
+}
+.info-top ul{display:block;line-height:40px;}
+.info-top ul li{display:block;text-align:left;color:#999;width:100%;}
+.info-top ul li span{display:inline-block;}
+.info-top ul li .color{color:#666;display:inline-block;font-size:14px;}
+.info-top ul li .price1{font-size: 25px;color: #EF353D;}
+.info-top ul li .price2{font-size: 16px;color: #EF353D;padding-left:15px;}
+.info-top ul li span em{font-style:normal;color:#4d8dc7;padding:0 5px;}
+.info-top .buyer{margin-top:15px;}
+.info-top .buyer a{display:inline-block;padding:0 50px; text-align:center;height:40px;line-height:40px;color:#fff;margin-right:20px;
+}
+.info-top .buyer .gou{background:#f55a00;}
+.info-top .buyer .cang{background:#00aeff;}
+.info-top .des{font-size:12px;color:#888;margin-top:25px;}
+.info-top .des a{color:#4d8dc7;}
+.info-top .userright{float:right;width:215px;overflow:hidden;border-left:1px #eee solid;
+	padding:10px 15px 0 0;height:420px;
+}
+.info-top .userright .text{font-size:16px;padding-bottom:10px;border-bottom:1px #eee solid;text-indent:20px;
+	font-weight:600;}
+.info-top .userright .imgs{margin-top:20px;height:70px;}
+.info-top .userright .touxiang{width:65px;height:65px;overflow:hidden;margin-left:25px;float:left}
+.info-top .userright .touxiang img{width:65px;height:65px;border-radius:50px;float:left;}
+.info-top .userright .name{display:inline-block;margin:8px 0 0 20px;font-size:13px;}
+.info-top .userright .name p{margin:0px;padding-bottom:10px;}
+.info-top .userright .name .styles{color:#4d8dc7;}
+.info-top .kefu{margin-top:20px;text-align:center;}
+.info-top .quanzi{text-align:center;margin-top:20px;}
+.info-top .quanzi a{display:inline-block;height:35px;background:#eee;line-height:35px;
+	width: 150px;border-radius:50px;border:1px #ccc solid;
+}
+.info-top .quanzi a:hover{color:#666;}
+.info-top .tishi{color:red;font-size:12px;line-height:22px;margin:30px 0 0 25px;}
+/* 内容部分 */
+.info-bottom{margin:10px 0 20px 0;overflow:hidden;}
+.bottom-left{background:#fff;width:100%;float:left;padding:10px 15px 15px 15px;overflow:hidden;}
+.content-info img{display:block;max-width:100%;}
+.info-log{overflow:hidden;}
+.info-log dt{float:left;width: 100px;padding: 20px 0;text-align: center;display:block;}
+.info-log dt h4{font-size:20px;padding-bottom:5px;}
+.info-log dd{float:left;width: 750px;border-left:3px solid #eee;padding:20px 0 20px 20px;position: relative;display:block;}
+ .info-log dd:before{content: '';
+    border-width: 11px;
+    border-style: solid;
+    border-color: transparent #f5f5f5 transparent transparent;
+    position: absolute;
+    left: 0px;
+    top: 28px;}
+.info-log dd i{position: absolute;
+    left: -9px;
+    top: 27px;
+    width: 8px;
+    height: 8px;
+    color: #4d8dc7;
+}
+.info-log .banben{overflow:hidden;
+    height: 38px;
+    line-height: 38px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color:#888;
+    padding: 0 10px;
+    display: block;
+    font-weight:700;
+    border: 1px solid #eee;}
+.info-log .log-list{border: 1px solid #eee;padding:20px;border-top: none;}
+.tui-right{width:220px;float:right;background:#fff;padding:15px;overflow:hidden;}
+
+/* 本例子css */
+.slideTxtBox{text-align:left;}
+.slideTxtBox .hd{height:40px; line-height:40px;border-bottom:1px solid #ddd; position:relative;font-size:15px;}
+.slideTxtBox .hd ul{ float:left;position:absolute; left:0px; top:-1px; height:32px;   }
+.slideTxtBox .hd ul li{ float:left; padding:0 30px; cursor:pointer;  }
+.slideTxtBox .hd ul li.on{height:40px;background:#fff;border-bottom: 3px solid #ff6f06;color: #ff6f06;}
+.slideTxtBox .hd ul li b{color:#4d8dc7;padding:0 3px;}
+.slideTxtBox .bd .content-info{padding:25px 15px 15px 15px;overflow:hidden;line-height:20px;}
+
+.tui-right h2{border-bottom:1px #ddd solid;padding-bottom:10px;font-size:16px;}
+.tui-right ul li{border-bottom:1px #eee solid;height:70px;margin-top:15px;}
+.tui-right .pics{width:60px;height:60px;overflow:hidden;float:left;}
+.tui-right .pics img{width:60px;height:60px;}
+.tui-right .texts{float:right;width:145px;overflow:hidden;margin-top:6px;}
+.tui-right ul li p{display:block;}
+.tui-right ul li p a:hover{color:#048cf4;}
+.tui-right ul li p span{display:block;margin-top:8px;color:#999;font-size:12px;}
+
+/*应用中心更新日志*/
+.history-item {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 15px 0;
+}
+.mb-1 {
+    margin-bottom: 5px !important;
+}
+.py-1 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+	color: #777777;
+}
+
+
+.history-item .mb-1 span {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+	background-color: #f60;
+}
+
+
+

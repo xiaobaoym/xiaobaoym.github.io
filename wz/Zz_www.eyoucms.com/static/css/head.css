@@ -1,0 +1,29 @@
+.img_append_copyright {
+	font-size: 12px !important;
+	color: #666666 !important;
+	margin: 0px !important;
+}
+#iframe_userLogin, #iframe_qqLogin {
+	padding: 0px;
+}
+body .WeChatScanCode_20191120 .layui-layer-content {
+	padding: 0px;
+}
+/* ÃâÔðÉùÃ÷ */
+.mianzem {
+	padding: 10px 20px;
+	font-size: 14px;
+	margin-top: 15px;
+	background: #f7f7f7;
+}
+.mianzem span{
+	color: #444;
+}
+@media screen and (max-width:768px) {
+	.fa-angle-down{
+		display: none;
+	}
+	.hot_none{
+		display: none;
+	}
+}

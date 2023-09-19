@@ -1,0 +1,440 @@
+.pt-20 {
+    padding-top: 20px;
+}
+
+.dis-ib {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.font12 {
+    font-size: 12px
+}
+
+.font12-f {
+    font-size: 12px !important
+}
+
+.font14 {
+    font-size: 14px
+}
+
+.font14-f {
+    font-size: 14px !important
+}
+
+.font16 {
+    font-size: 16px
+}
+
+.font16-f {
+    font-size: 16px !important
+}
+
+.font18 {
+    font-size: 18px
+}
+
+.font18-f {
+    font-size: 18px !important
+}
+
+.font20 {
+    font-size: 20px
+}
+
+.font20-f {
+    font-size: 20px !important
+}
+
+.font22 {
+    font-size: 22px
+}
+
+.font22-f {
+    font-size: 22px !important
+}
+
+.font24 {
+    font-size: 24px
+}
+
+.font24-f {
+    font-size: 24px !important
+}
+
+.font26 {
+    font-size: 26px
+}
+
+.font26-f {
+    font-size: 26px !important
+}
+
+.font28 {
+    font-size: 28px
+}
+
+.font28-f {
+    font-size: 28px !important
+}
+
+.font30 {
+    font-size: 30px
+}
+
+.font30-f {
+    font-size: 30px !important
+}
+
+.font36 {
+    font-size: 36px
+}
+
+.font36-f {
+    font-size: 36px !important
+}
+
+.font40 {
+    font-size: 40px
+}
+
+.font40-f {
+    font-size: 40px !important
+}
+
+.webhosting-title {
+    padding-top: 20px;
+    text-align: center
+}
+
+.webhosting-title h3 {
+    font-size: 32px;
+    color: #505050
+}
+
+.webhosting-title .web-line {
+    margin: 10px auto 0;
+    width: 94px;
+    border-bottom: 2px solid #777
+}
+
+.webhosting-title .web-wavy-line {
+    width: 47px;
+    background: #F1F4F4;
+    margin: -12px auto 0;
+    *margin-top: -12px
+}
+
+.webhosting-title .web-wavy-line i {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 37px;
+    height: 6px;
+    background: url(../image/triangle2.jpg) repeat-x
+}
+
+.webhosting-title p {
+    padding-top: 4px;
+    font-size: 16px;
+    color: #8b8b8b
+}
+
+.host {
+    padding-top: 0 !important;
+    background: #f7f7f7;
+}
+
+.pricing-table .pricing-column-four {
+    width: 33.33% !important;
+    background-color: unset;
+    border: unset;
+}
+
+.pricing-table .middle-column {
+    padding: 0 20px;
+}
+
+.pricing-table .column {
+    padding: 26px 0 20px;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    text-align: center
+}
+
+.webhosting-hot {
+    padding-right: 8px;
+    padding-top: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 71px;
+    height: 59px;
+    background: url(../image/triangle3.jpg) no-repeat top right;
+    font-size: 14px;
+    color: #fff;
+    text-align: right
+}
+
+.pricing-table .column .column-title {
+    margin: 0 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 1.1;
+    font-size: 26px;
+    color: #444;
+    text-align: center;
+    position: relative
+}
+
+.pricing-table .column .price {
+    position: relative;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 1.1
+}
+
+.pricing-table .column .price .price-num {
+    font-size: 24px;
+    color: #ff5c35
+}
+
+.pricing-table .column .price .price-line {
+    margin-left: -9px;
+    font-size: 24px;
+    color: #a7a4a4
+}
+
+.domain-tip {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: absolute;
+    top: 14px;
+    right: 86px;
+    background-color: #e8f8fe;
+    border-radius: 16px;
+    border: 1px solid #c7dff9;
+    font-size: 12px;
+    z-index: 1;
+    color: #2086EE;
+    padding: 0 5px;
+    line-height: 20px
+}
+
+.sheng100 {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative;
+    padding: 0 2px;
+    border-radius: 2px 2px 2px 0;
+    background: #2fd72b;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 14px;
+    right: 86px;
+    line-height: 20px
+}
+
+.sheng100 i {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: url(https://www.eyoucms.com/skin/images/basic-icon.jpg) no-repeat 0 -400px
+}
+
+.sheng100 .sheng100-refresh-tip, .domain-tip .domain-refresh-tip {
+    position: absolute;
+    top: -12px;
+    left: 50px;
+    padding: 2px;
+    width: 220px;
+    background: #FFF;
+    border-radius: 4px;
+    border: 1px solid #2086EE;
+    font-size: 12px;
+    text-align: center;
+    z-index: 19;
+    color: #666;
+    display: none
+}
+
+.sheng100:hover .sheng100-refresh-tip, .domain-tip:hover .domain-refresh-tip {
+    display: block
+}
+
+.webhosting-info {
+    padding: 35px 15px 0 30px;
+    display: inline-block
+}
+
+.webhosting-hot {
+    padding-right: 8px;
+    padding-top: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 71px;
+    height: 59px;
+    background: url(../image/triangle3.jpg) no-repeat top right;
+    font-size: 14px;
+    color: #fff;
+    text-align: right
+}
+
+.webhosting-info li {
+    padding: 0 15px;
+    float: left;
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    margin-left: -1px;
+    list-style-type: none;
+}
+
+.webhosting-info li:first-of-type {
+    border-left: 0
+}
+
+.webhosting-info li:last-of-type {
+    border-right: 0
+}
+
+.webhosting-info li p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #565656
+}
+
+.webhosting-info .border-line {
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7
+}
+
+.pricing-table .column .column-config {
+    padding-left: 102px;
+    line-height: 1.1;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.pricing-table .column .column-config dt {
+    float: left;
+    padding-top: 10px;
+    width: 64px;
+    line-height: 20px;
+    color: #2f2f2f;
+    font-weight: 700
+}
+
+.pricing-table .column .column-config dd {
+    padding-top: 10px;
+    line-height: 20px;
+    color: #4b4b4b;
+    word-break: break-word
+}
+
+.pricing-table .column .column-tips {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff5c35;
+    border: 1px solid #ff5c35;
+    border-radius: 20px 0;
+    padding: 0 20px;
+    line-height: normal
+}
+
+.pricing-table .column .column-more {
+    padding: 14px 0 0 45px;
+    font-family: "新宋体"
+}
+
+.pricing-table .column .column-more a {
+    color: #1061ac;
+    font-weight: 700
+}
+
+.pricing-table .column .column-bottom {
+    padding-top: 24px;
+    text-align: center
+}
+
+.pricing-table .column .column-btn {
+    display: inline-block;
+    width: 70%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer
+}
+
+.pricing-table .column-li-hover .column {
+    box-shadow: 0 10px 4px 0 rgba(0, 0, 0, .1)
+}
+
+.pricing-table .column-li-hover .column-btn {
+    background: #0eb7fd
+}
+
+.pricing-table [class*="pricing-column"]:last-child {
+    border-right: none;
+}
+
+@media (max-width: 640px) {
+	.ey-banner-host {
+		padding-top: 0 !important;
+		padding-bottom: 100px !important;
+	}
+    .host {
+        padding-bottom: 10px !important;
+    }
+
+    .taocan .webhosting-title {
+        padding-top: unset;
+    }
+
+    .pricing-table .pricing-column-four {
+        width: 100% !important;
+        padding: unset;
+    }
+
+    .webhosting-info {
+        padding: 20px 10px 0 10px;
+    }
+
+    .webhosting-info li:first-of-type {
+        padding-left: 0;
+    }
+
+    .webhosting-info li:last-of-type {
+        padding-right: 0;
+    }
+}
+
+.pricing-table .host2 {
+    color: #ff283c;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pricing-table .host3 {
+    font-size: 12px;
+    font-family: '微软雅黑';
+}

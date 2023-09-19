@@ -1,0 +1,169 @@
+
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, th, td, p, form, button, input, textarea, fieldset, blockquote, img, iframe, pre, code, hr, legend {
+	padding: 0;
+	margin: 0
+}
+body {
+	color: #333;
+	font: 12px Arial, Helvetica, sans-serif, Simsun
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+ol, ul {
+	list-style: none
+}
+img {
+	border: 0;
+	vertical-align: top
+}
+input, select, input, textarea {
+	font-size: 12px;
+	outline: 0
+}
+select, input {
+	vertical-align: middle
+}
+input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"]>input[type="button"]::-moz-focus-inner {
+border:0;
+padding:0;
+margin-bottom:
+}
+textarea {
+	resize: none
+}
+fieldset {
+	border: 0
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+caption, th {
+	text-align: left
+}
+address, cite, code, em, th, i, strong {
+	font-style: normal;
+	font-weight: normal
+}
+a {
+	text-decoration: none;
+	outline: 0
+}
+a:hover {
+	text-decoration: none
+}
+body {
+	font-family: "Microsoft YaHei", "微软雅黑", "Hiragino Sans GB", tahoma, arial, simhei;
+	color: #333
+}
+.none {
+	display: none
+}
+a {
+	color: #666
+}
+a:hover {
+	color: #666
+}
+.clearfix:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+body {
+	font-size: 14px;
+	background: #f1f1f1 !important;
+}
+.content {
+	width: 1180px;
+	margin: 0 auto
+}
+.fleft {
+	float: left
+}
+.city-itm {
+	background: #fff;
+	padding: 20px 30px;
+	margin: 20px 0;
+	-webkit-border-radius: 4px;
+	-mos-border-radius: 4px;
+	border-radius: 4px
+}
+.city-itm .title {
+	font-size: 16px;
+	color: #333 !important;
+}
+.city-itm .title a {
+	font-size: 16px;
+	color: #333 !important;
+}
+.citybox {
+	padding: 20px 0
+}
+.citybox .hot-city a {
+	color: #d46922;
+	margin: 0 10px
+}
+.letter_city ul li {
+*+height:1%;
+	margin: 12px 0
+}
+.letter_city ul li:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.letter_city .label_letter {
+	float: left;
+	font-size: 16px;
+	color: #ccc;
+	line-height: 28px
+}
+.letter_city .city_list {
+	float: right;
+	width: 1120px;
+}
+.letter_city .city_list a {
+	display: inline-block;
+	color: #666;
+	line-height: 28px;
+	margin: 0 20px 0 0;
+	white-space: nowrap;
+	width: 56px;
+	overflow: hidden;
+}
+.letter_city .b_bottom .city_list {
+	padding-bottom: 15px;
+	border-bottom: solid 1px #eee
+}
+.letter_city .city_list .hot {
+	color: #62ab00
+}
+.letter_city .city_list .hot:hover, .city-itm a:hover {
+	color: #f60;
+	text-decoration: underline
+}
+.ey-banner-city {
+	text-align: center;
+	position: relative;
+	height: 200px;
+	background: url(../image/banner_city.png) center center no-repeat #ff7421;
+}
+.ey-banner-city .title {
+	margin-top: 65px;
+	display: inline-block;
+	color: #fff;
+	font-size: 42px;
+}
+.letter_city .city_list .cthot {
+	color: #d46922;
+}
+.letter_city .city_list .cthot:hover {
+	color: #f60;
+}

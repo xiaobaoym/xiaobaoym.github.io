@@ -1,0 +1,52 @@
+/*reset*/
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0;
+}
+body{position:relative;font-size:14px;background-color:white;overflow:auto;}
+body, button, input, keygen, legend, select, textarea {
+    font-family: "Microsoft Yahei","HanHei SC",PingHei,"PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    font-weight: 400;
+    color: #333;
+    outline: 0;
+    speak: none;
+    -webkit-font-feature-settings: normal;
+    -moz-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {font-weight: 400; }
+li {list-style: none; }
+html, body, fieldset, img, iframe, abbr {border: 0; }
+
+a, button {cursor: pointer; }
+a {color: #333; outline:none; text-decoration: none;}
+
+
+/*common*/
+body{ background: #f7f7f7; }
+a:hover{ color: #fc8080; text-decoration: none; }
+a:-webkit-any-link{ text-decoration: none; }
+.container:after{ content:""; display: block; clear: both; }
+.clearfix:after{ content: ""; display: block; clear: both; }
+.fl{ float: left; }
+.fr{ float: right; }
+.tl{ text-align: left; }
+.tr{ text-align: right; }
+.tc{ text-align: center; }
+.color-white {color: white!important; }
+.red {color: #fc8080!important; }
+.fz12 {font-size: 12px;}
+.fz14 { font-size: 14px; }
+.wfs { width: 100%; position:relative;}
+.p_r{ position:relative;}
+
+@font-face {
+    font-family: pingfang;
+    src: url(https://www.eyoucms.com/skin/app/fonts/%E8%8B%B9%E6%96%B9%E9%BB%91%E4%BD%93-%E7%BB%86-%E7%AE%80.ttf);
+    font-weight: 400;
+    font-style: normal
+}

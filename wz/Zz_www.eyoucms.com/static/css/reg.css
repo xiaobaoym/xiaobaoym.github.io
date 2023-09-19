@@ -1,0 +1,144 @@
+html {
+    background-color: #fff !important;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #555;
+    background-image: url(../image/login-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: 100%;
+
+}
+
+.reg {
+    background-color: unset !important;
+}
+
+.reg label {
+    margin-bottom: unset !important;
+}
+
+.register_index {
+    padding: 72px 0 24px;
+    height: auto;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'iconfont1';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg') format('svg');
+}
+
+.iconfont1 {
+    font-family: "iconfont1" !important;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.form-group {
+    margin-bottom: 1.729rem !important;
+}
+
+.form-group .ico-m {
+    position: absolute;
+    color: #999;
+    top: 10px;
+    z-index: 10;
+    left: 10px;
+}
+
+.form-group .ant-input {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    padding: 4px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.form-group .ant-pd {
+    padding-left: 30px;
+}
+
+.form-group .ant-input:focus {
+    border: 1px solid #d9d9d9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(191, 189, 189, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(191, 189, 189, 0.6);
+}
+
+.input-box {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.input-box .login-other {
+    line-height: 26px;
+    display: inline;
+    overflow: hidden;
+}
+
+.input-box .login-other a {
+    width: 26px;
+    height: 26px;
+    margin: 0 4px;
+}
+
+.input-box .login-other a img {
+    width: 26px;
+    height: 26px;
+}
+
+.login-desc {
+    height: 40px;
+}
+
+.reg .form-group .input-group input {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    padding: 4px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.reg .input-box .reg-bt {
+    width: 100%;
+    border: 0;
+    padding: 8px 20px;
+    background-color: #f97720;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reg .input-box .reg-r-lo {
+    color: #f97720;
+    line-height: 30px;
+    float: right;
+    display: inline;
+}

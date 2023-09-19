@@ -1,0 +1,4069 @@
+
+
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.timeS {
+	font-size: 12px;
+	margin-bottom: 5px
+}
+
+.webBanner_comm {
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/bannerbg2.png) no-repeat center
+}
+
+.banner_comm {
+	height: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/banner2.jpg) no-repeat
+}
+
+.middle {
+	width: 960px;
+	margin: auto;
+	font-size: 12px
+}
+
+.middle_new {
+	width: 1037px;
+	margin: 0 auto;
+	font-size: 12px
+}
+
+.lineWhite {
+	clear: both;
+	width: 100%;
+	border-top: 1px solid #fff;
+	line-height: 0;
+	height: 0;
+	font-size: 0
+}
+
+.whiteLayer {
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 32px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/whitelayer.png) center 0 no-repeat
+}
+
+.bannerLineShadow {
+	clear: both;
+	width: 960px;
+	height: 22px;
+	margin: auto
+}
+
+.grayTitle {
+	color: #afafaf;
+	font-size: 14px
+}
+
+.grayTitle3 {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.grayTitle_title {
+	color: #333;
+	font-size: 14px;
+	line-height: 40px
+}
+
+.grayContent {
+	font-size: 14px;
+	color: #666
+}
+
+.grayBack {
+	background-color: #f6f7f7
+}
+
+.redText {
+	color: #8b7c7f
+}
+
+.blueText {
+	color: #0178de
+}
+
+.blueBack {
+	background-color: #4173ae
+}
+
+.blueBack2 {
+	background-color: #389cda
+}
+
+.blueText2 {
+	color: #3f423b
+}
+
+.grayTitle2 {
+	color: #213e62;
+	font-size: 16px;
+	font-weight: bold
+}
+
+.pagenation {
+	clear: both;
+	float: right;
+	width: auto;
+	height: 30px;
+	text-align: center;
+	padding-top: 20px
+}
+
+.pageNo {
+	float: left;
+	width: 30px;
+	height: 22px;
+	margin-top: 4px
+}
+
+.pageNo a {
+	display: block;
+	width: 30px;
+	height: 22px;
+	line-height: 20px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/pageno.png) no-repeat;
+	text-decoration: none
+}
+
+.pageNo span {
+	display: block;
+	width: 30px;
+	height: 22px;
+	line-height: 20px
+}
+
+.pageEllipsis_case {
+	float: left;
+	width: 30px;
+	height: 22px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/ellipsis_case.png) no-repeat;
+	margin-top: 2px
+}
+
+.pageEllipsis_new {
+	display: inline-block;
+	width: 21px;
+	height: 20px;
+	zoom: 1;
+	*display: inline;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/ellipsis_new.jpg) no-repeat
+}
+
+.pageEllipsis_model {
+	float: left;
+	width: 30px;
+	height: 22px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/ellipsis_model.png) no-repeat;
+	margin-top: 2px
+}
+
+.pagePrev {
+	float: left;
+	width: 35px;
+	height: 29px;
+	margin-left: 20px
+}
+
+.pagePrev .prevShow {
+	display: block;
+	width: 35px;
+	height: 29px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/prevshow.png) no-repeat
+}
+
+.pagePrev .prevHide {
+	display: block;
+	width: 35px;
+	height: 29px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/prevhide.png) no-repeat
+}
+
+.pageLine {
+	float: left;
+	width: 2px;
+	height: 26px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/pageline.png) no-repeat
+}
+
+.pageNext {
+	float: left;
+	width: 35px;
+	height: 29px;
+	margin-right: 40px
+}
+
+.pageNext .nextShow {
+	display: block;
+	width: 35px;
+	height: 29px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/nextshow.png) no-repeat
+}
+
+.pageNext .nextHide {
+	display: block;
+	width: 35px;
+	height: 29px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/nexthide.png) no-repeat
+}
+
+.webRegCount {
+	width: 100%;
+	height: 56px;
+	background: #f8f8f8;
+	margin-bottom: 18px;
+	position: relative;
+	z-index: 100;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) inset
+}
+
+.regCountLeft {
+	float: left;
+	height: 100%;
+	font-size: 20px;
+	font-family: "微软雅黑", "黑体";
+	color: #333;
+	padding-top: 7px;
+	margin-left: 20px
+}
+
+.regCountMiddle {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px
+}
+
+.regCountMiddle .ico {
+	float: left;
+	width: 16px;
+	height: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountico.gif) 0 58% no-repeat
+}
+
+.regCountMiddle .textDiv {
+	float: left;
+	position: relative;
+	width: 215px;
+	margin-left: 10px;
+	height: 100%;
+	line-height: 55px;
+	overflow: hidden
+}
+
+.regCountMiddle .textDiv .regCountText {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-family: 微软雅黑;
+	font-size: 14px
+}
+
+.regCountRight {
+	float: right
+}
+
+.regCountRight .ico {
+	position: relative;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 15px;
+	margin-top: 9px
+}
+
+.regCountRight .weixin {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/comm.png) 0 -270px no-repeat
+}
+
+.regCountRight .phone {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/comm.png) 0 -313px no-repeat
+}
+
+.regCountRight .bdshare_t {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/comm.png) 0 -355px no-repeat
+}
+
+.regCountRight .weibo {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/comm.png) 0 -397px no-repeat
+}
+
+.regCountRight .ts {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/comm.png) 0 -439px no-repeat
+}
+
+.regCountRight .weixin_b {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightweixin0.png)
+}
+
+.regCountRight .weixin_b:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightweixin1.png)
+}
+
+.regCountRight .phone_b {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightphone0.png)
+}
+
+.regCountRight .phone_b:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightphone1.png)
+}
+
+.regCountRight .bdshare_t_b {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightbdshare0.png)
+}
+
+.regCountRight .bdshare_t_b:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightbdshare1.png)
+}
+
+.regCountRight .weibo_b {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightweibo0.png)
+}
+
+.regCountRight .weibo_b:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightweibo1.png)
+}
+
+.regCountRight .ts_b {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightts0.png)
+}
+
+.regCountRight .ts_b:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/regcountrightts1.png)
+}
+
+.regCountRight .weixin .weixinContent {
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: -68px;
+	width: 168px;
+	height: 197px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/logoweixin_new.png) -53px -52px no-repeat
+}
+
+.regCountRight .phone .phoneContent {
+	display: none;
+	position: absolute;
+	top: 38px;
+	left: -138px;
+	width: 272px;
+	height: 54px;
+	line-height: 60px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/qrcode.png) -283px -114px no-repeat;
+	font-size: 18px;
+	font-family: "微软雅黑", "黑体";
+	text-align: center;
+	z-index: 100
+}
+
+.regCountRight .weibo a {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.regCountRight .ts a {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+
+
+.firstView {
+	display: none
+}
+
+
+.webBottom {
+	clear: both;
+	width: 100%;
+	height: 10px
+}
+
+
+
+.funcRight {
+	float: left;
+	width: 150px;
+	margin: 14px 0 0 10px;
+	text-align: right
+}
+
+.funcTitle {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #213e62;
+	height: 28px;
+	line-height: 28px
+}
+
+.funcPrice {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #666;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold
+}
+
+.funcContent {
+	padding-left: 6px;
+	line-height: 22px;
+	color: #999;
+	text-align: left
+}
+
+.funcBtn {
+	float: right;
+	margin-top: 4px;
+	width: 87px;
+	height: 26px
+}
+
+.funcBtnGraw {
+	display: block;
+	width: 87px;
+	height: 26px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -339px no-repeat
+}
+
+.funcBtnFree {
+	display: block;
+	width: 87px;
+	height: 26px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -260px no-repeat
+}
+
+.funcBtnFree:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -339px no-repeat
+}
+
+.funcBtnPro:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -755px no-repeat
+}
+
+.funcBtnGrawPro2:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -755px no-repeat
+}
+
+.funcBtnGrawBiz:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -260px no-repeat
+}
+
+.funcBottom {
+	width: 314px;
+	height: 13px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/funcnewsbg.png) -632px 0 no-repeat
+}
+
+.webIndexNews {
+	float: left;
+	width: 314px;
+	height: 344px;
+	overflow: hidden
+}
+
+.newsTop {
+	width: 314px;
+	height: 13px;
+	_font-size: 1px
+}
+
+.newsMiddle {
+	width: 314px;
+	height: auto
+}
+
+.newsDiv {
+	width: 267px;
+	height: 100%;
+	margin: auto
+}
+
+.newsTitle {
+	width: 267px;
+	height: 23px;
+	border-bottom: 1px dashed #b5b3b5
+}
+
+.newsTitleLeft {
+	float: left;
+	width: 210px;
+	height: 100%;
+	font-size: 14px;
+	color: #333;
+	margin-left: 10px
+}
+
+.newsTitleLeft a {
+	font-size: 14px;
+	color: #333;
+	text-decoration: none
+}
+
+.newsTitleRight {
+	float: left;
+	height: 100%;
+	line-height: 23px;
+	font-size: 12px
+}
+
+.newsTitleRight a {
+	text-decoration: none;
+	color: #608bc5
+}
+
+.newsContent {
+	width: 267px;
+	height: auto;
+	margin-top: 5px
+}
+
+.newsList {
+	width: 100%;
+	height: 27px;
+	line-height: 27px
+}
+
+.newsListLeft {
+	float: left;
+	height: 27px
+}
+
+.newsList font {
+	color: #608bc5;
+	font-size: 12px
+}
+
+.newsList a {
+	color: #666;
+	text-decoration: none
+}
+
+.newsList a:hover {
+	text-decoration: underline
+}
+
+.newsTime {
+	float: right;
+	width: 70px;
+	height: 100%;
+	color: #828282
+}
+
+.newsIcon {
+	float: left;
+	width: 30px;
+	_width: 25px;
+	height: 27px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/icon2.png) 0 40% no-repeat
+}
+
+.news {
+	float: left;
+	width: 235px;
+	color: #828282
+}
+
+.newsDiv .promoteContent {
+	height: 135px;
+	overflow: hidden;
+	position: relative
+}
+
+.promoteLine {
+	width: 100%;
+	height: 27px;
+	line-height: 27px;
+	color: #828282
+}
+
+.promoteList0 {
+	float: left;
+	width: 133px;
+	height: 27px;
+	line-height: 27px;
+	border-right: 1px dotted #b5b3b5
+}
+
+.promoteList1 {
+	float: left;
+	width: 133px;
+	height: 27px;
+	line-height: 27px
+}
+
+.promotes {
+	float: left;
+	width: 93px;
+	padding-left: 30px;
+	_padding-left: 25px;
+	margin-right: 10px;
+	_margin-right: 5px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/icon2.png) 0 center no-repeat
+}
+
+.promotes a {
+	color: #828282;
+	text-decoration: none
+}
+
+.promotes a:hover {
+	text-decoration: underline
+}
+
+.newsBottom {
+	width: 314px;
+	height: 13px
+}
+
+.tg_title {
+	width: 314px;
+	height: auto;
+	padding-top: 15px
+}
+
+.tg_title a {
+	color: #666;
+	text-decoration: none;
+	line-height: 25px;
+	letter-spacing: .2mm
+}
+
+.tg_title a:hover {
+	text-decoration: underline;
+	color: #608bc5
+}
+
+.jzHelp {
+	width: 237px;
+	padding-left: 30px;
+	_padding-left: 25px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/icon2.png) 0 center no-repeat
+}
+
+.jzHelp a {
+	color: #828282;
+	text-decoration: none
+}
+
+.jzHelp a:hover {
+	text-decoration: underline
+}
+
+.indexSeo {
+	margin-top: 100px
+}
+
+.webLink_index {
+	clear: both;
+	width: 100%;
+	background-color: #e8e8e8;
+	margin-top: 40px;
+	border-top: 5px solid #d8d8d8
+}
+
+.link_index {
+	padding: 8px 0 10px 0;
+	position: relative
+}
+
+.linkLine {
+	position: absolute;
+	left: 245px;
+	top: 25px;
+	bottom: 25px;
+	width: 2px;
+	height: auto;
+	*height: expression(document.getElementById("link_index").offsetHeight - 50);
+	background: url(https://www.eyoucms.com/skin/help_xin/images/linkline2.png) repeat-y
+}
+
+.linkLine2 {
+	position: absolute;
+	left: 480px;
+	_left: 485px;
+	top: 25px;
+	bottom: 25px;
+	width: 2px;
+	height: auto;
+	*height: expression(document.getElementById("link_index").offsetHeight - 50);
+	background: url(https://www.eyoucms.com/skin/help_xin/images/linkline2.png) repeat-y
+}
+
+.linkTitle {
+	width: 100%;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	color: #666;
+	letter-spacing: 3px
+}
+
+.linkTitle span {
+	color: #a4a4a4;
+	letter-spacing: 0
+}
+
+.linkTitle span:hover {
+	color: #00658f
+}
+
+.linkLeft {
+	float: left;
+	width: 250px
+}
+
+.linkLeftContent {
+	width: 230px;
+	padding: 0 10px
+}
+
+.linkLeftPicture {
+	float: left;
+	height: 26px;
+	margin: 0 18px 15px 0
+}
+
+.linkLeftPicture a {
+	display: block;
+	height: 26px
+}
+
+.linkLeftPic1 {
+	width: 56px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 6px -784px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 6px -784px no-repeat
+}
+
+.linkLeftPic1:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -141px -784px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -141px -784px no-repeat
+}
+
+.linkLeftPic2 {
+	width: 60px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 8px -813px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 8px -813px no-repeat
+}
+
+.linkLeftPic2:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -139px -813px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -139px -813px no-repeat
+}
+
+.linkLeftPic3 {
+	width: 60px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 8px -842px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 8px -842px no-repeat
+}
+
+.linkLeftPic3:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -139px -842px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -139px -842px no-repeat
+}
+
+.linkLeftPic4 {
+	width: 67px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 7px 0 no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 7px 0 no-repeat
+}
+
+.linkLeftPic4:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -140px 0 no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -140px 0 no-repeat
+}
+
+.linkLeftPic6 {
+	width: 38px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 5px -369px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 5px -369px no-repeat
+}
+
+.linkLeftPic6:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -142px -369px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -142px -369px no-repeat
+}
+
+.linkLeftPic7 {
+	width: 56px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -964px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -964px no-repeat
+}
+
+.linkLeftPic7:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -964px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -964px no-repeat
+}
+
+.linkLeftPic8 {
+	width: 61px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 5px -397px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 5px -397px no-repeat
+}
+
+.linkLeftPic8:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -142px -397px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -142px -397px no-repeat
+}
+
+.linkLeftPic9 {
+	width: 56px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -46px -813px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -46px -813px no-repeat
+}
+
+.linkLeftPic9:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -194px -813px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -194px -813px no-repeat
+}
+
+.linkMiddle {
+	float: left;
+	width: 460px
+}
+
+.linkMiddleContent {
+	width: 440px;
+	padding: 0 0 0 20px
+}
+
+.linkUl {
+	width: 100%;
+	height: auto;
+	padding: 0
+}
+
+.linkUl li {
+	float: left;
+	padding-right: 15px;
+	height: 23px
+}
+
+.linkUl li a {
+	color: #a4a4a4;
+	text-decoration: none;
+	line-height: 23px
+}
+
+.linkUl li a:hover {
+	color: #00658f
+}
+
+.linkMiddle .linkUrl {
+	display: inline-block;
+	padding-right: 10px;
+	height: 23px;
+	line-height: 23px;
+	color: #a4a4a4;
+	text-decoration: none
+}
+
+.linkMiddle .linkUrl:hover {
+	color: #00658f
+}
+
+.linkRight {
+	float: left;
+	width: 235px
+}
+
+.linkRighContentt {
+	width: 220px;
+	padding: 0 0 0 15px
+}
+
+.linkRightPicture {
+	float: left;
+	height: 23px;
+	margin: 0 11px 15px 0
+}
+
+.linkRightPicture a {
+	display: block;
+	height: 23px
+}
+
+.linkRightPic1 {
+	width: 53px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -290px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -290px no-repeat
+}
+
+.linkRightPic1:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -290px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -290px no-repeat
+}
+
+.linkRightPic2 {
+	width: 47px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -25px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -25px no-repeat
+}
+
+.linkRightPic2:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -25px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -25px no-repeat
+}
+
+.linkRightPic3 {
+	width: 63px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -908px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -908px no-repeat
+}
+
+.linkRightPic3:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -908px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -908px no-repeat
+}
+
+.linkRightPic4 {
+	width: 64px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -931px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -931px no-repeat
+}
+
+.linkRightPic4:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -931px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -931px no-repeat
+}
+
+.linkRightPic5 {
+	width: 59px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -991px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -991px no-repeat
+}
+
+.linkRightPic5:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -991px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -991px no-repeat
+}
+
+.linkRightPic6 {
+	width: 60px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -48px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -48px no-repeat
+}
+
+.linkRightPic6:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -48px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -48px no-repeat
+}
+
+.linkRightPic7 {
+	width: 59px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -887px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -887px no-repeat
+}
+
+.linkRightPic7:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -887px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -887px no-repeat
+}
+
+.linkRightPic8 {
+	width: 64px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) 0 -868px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) 0 -868px no-repeat
+}
+
+.linkRightPic8:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/all.png) -147px -868px no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/all.gif) -147px -868px no-repeat
+}
+
+.serviceBox {
+	width: 188px;
+	height: 316px;
+	position: absolute;
+	top: 250px;
+	z-index: 100;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/servicebox4.png)
+}
+
+.serviceBox2 {
+	width: 188px;
+	height: 400px;
+	position: absolute;
+	top: 250px;
+	z-index: 100;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/servicebox.png)
+}
+
+.serviceBox .serviceTitle {
+	position: absolute;
+	top: 118px;
+	right: 20px;
+	width: 90px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #013684;
+	text-decoration: none
+}
+
+.serviceBox .serviceTitle:hover {
+	color: #f30
+}
+
+.serviceBox .serviceText {
+	position: absolute;
+	top: 185px;
+	left: 56px;
+	width: 112px;
+	height: 27px;
+	line-height: 30px;
+	text-align: center;
+	color: #013684;
+	cursor: pointer;
+	font-size: 12px
+}
+
+.serviceBox .serviceText2 {
+	position: absolute;
+	top: 220px;
+	left: 56px;
+	width: 112px;
+	height: 27px;
+	line-height: 30px;
+	text-align: center;
+	color: #013684;
+	cursor: pointer;
+	font-size: 12px
+}
+
+.serviceBox .serviceText3 {
+	position: absolute;
+	top: 175px;
+	left: 59px;
+	width: 112px;
+	height: 27px;
+	line-height: 30px;
+	text-align: center;
+	color: #013684;
+	cursor: pointer;
+	font-size: 12px
+}
+
+.serviceBox .serviceText4 {
+	position: absolute;
+	top: 212px;
+	left: 59px;
+	width: 112px;
+	height: 27px;
+	line-height: 30px;
+	text-align: center;
+	color: #013684;
+	cursor: pointer;
+	font-size: 12px
+}
+
+.serviceBox .oemServiceTitle2 {
+	position: absolute;
+	top: 329px;
+	right: 26px;
+	width: 90px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 16px;
+	color: #013684;
+	text-decoration: none
+}
+
+.serviceBox .oemServiceTitle2:hover {
+	color: #f30
+}
+
+.serviceBox .oemServiceText {
+	position: absolute;
+	top: 268px;
+	left: 56px;
+	width: 112px;
+	height: 27px;
+	line-height: 30px;
+	text-align: center;
+	color: #013684;
+	cursor: pointer;
+	font-size: 14px
+}
+
+.serviceBox .oemServiceText2 {
+	position: absolute;
+	top: 362px;
+	left: 61px;
+	width: 112px;
+	height: 27px;
+	line-height: 30px;
+	text-align: center;
+	color: #013684;
+	cursor: pointer;
+	font-size: 14px
+}
+
+.serviceBox .servicePhone2 {
+	position: absolute;
+	top: 50px;
+	right: 11px;
+	width: 130px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #557fb9;
+	font-family: "微软雅黑";
+	font-size: 14px
+}
+
+.webBanner_proFunc {
+	clear: both;
+	width: 100%;
+	height: 200px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/bannerbg_2.png) repeat-x
+}
+
+.banner_proFun {
+	height: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/banner_2.jpg) no-repeat
+}
+
+.webProFunc {
+	clear: both;
+	height: auto
+}
+
+.proTableDiv {
+	width: 960px;
+	height: auto;
+	position: relative
+}
+
+.proFuncHead {
+	font-family: '微软雅黑', sans-serif;
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 46px;
+	position: relative;
+	overflow: hidden;
+	border-collapse: collapse;
+	font-size: 18px;
+	padding-left: 4px
+}
+
+.tableHead {
+	float: left;
+	height: 100%;
+	position: relative
+}
+
+.tableHead p {
+	line-height: 18px;
+	font-size: 12px;
+	padding: 0 8px 16px 8px;
+	letter-spacing: normal;
+	margin: 0;
+	color: #fff
+}
+
+.tableHead1 {
+	border-collapse: collapse;
+	height: auto;
+	width: 210px
+}
+
+.tableHead2 {
+	border-collapse: collapse;
+	height: auto;
+	width: 185px
+}
+
+.tableHead3 {
+	border-collapse: collapse;
+	height: auto;
+	width: 185px
+}
+
+.tableHead4 {
+	position: relative;
+	margin-left: -1px;
+	border-collapse: collapse;
+	height: auto;
+	width: 185px
+}
+
+.tableHead5 {
+	margin-left: -1px;
+	border-collapse: collapse;
+	height: auto;
+	width: 185px
+}
+
+.tableHead6 {
+	display: none
+}
+
+.tableHead7 {
+	border-collapse: collapse;
+	height: auto;
+	width: 185px;
+	display: none
+}
+
+.tableHeadBottom1 {
+	position: relative;
+	width: 215px;
+	height: 72px;
+	line-height: 72px
+}
+
+.tableHeadBottom2 {
+	position: relative;
+	width: 185px;
+	height: auto;
+	line-height: 72px;
+	color: #333;
+	text-align: center;
+	font-size: 18px
+}
+
+.tableHeadBottom3 {
+	position: relative;
+	width: 185px;
+	height: auto;
+	line-height: 72px;
+	color: #333;
+	text-align: center;
+	font-size: 18px
+}
+
+.tableHeadBottom4 {
+	position: relative;
+	width: 185px;
+	height: auto;
+	color: #333;
+	text-align: center;
+	font-size: 18px;
+	line-height: 72px
+}
+
+.tableHeadBottom5 {
+	position: relative;
+	width: 185px;
+	height: auto;
+	color: #333;
+	text-align: center;
+	font-size: 18px;
+	line-height: 72px
+}
+
+.tableHeadBottom7 {
+	display: none;
+	position: relative;
+	width: 185px;
+	height: auto;
+	color: #333;
+	text-align: center;
+	font-size: 18px;
+	line-height: 72px
+}
+
+.tableHeadBottom6 {
+	display: none
+}
+
+.thactive {
+	background-color: #389cda;
+	color: #fff;
+	border: 1px solid #389cda;
+	z-index: 1
+}
+
+.thactive .tableHeadBottom1 {
+	color: #fff
+}
+
+.thactive .tableHeadBottom2 {
+	color: #fff
+}
+
+.thactive .tableHeadBottom3 {
+	color: #fff
+}
+
+.thactive .tableHeadBottom4 {
+	color: #fff
+}
+
+.thactive .tableHeadBottom5 {
+	color: #fff
+}
+
+.tableHeadPic {
+	width: 192px;
+	height: 100%;
+	text-align: center;
+	font-size: 19px;
+	color: #fff;
+	background: #4173ad;
+	line-height: 61px;
+	font-weight: bold;
+	letter-spacing: 5px
+}
+
+.tableHeadClone {
+	width: 960px;
+	height: 60px;
+	margin: 0 auto
+}
+
+.tableHeadClone .tableHead1 {
+	border-color: #1d7ebb
+}
+
+.tableHeadClone .tableHead2 {
+	border-color: #1d7ebb
+}
+
+.tableHeadClone .tableHead3 {
+	border-color: #1d7ebb
+}
+
+.tableHeadClone .tableHead4 {
+	border-color: #1d7ebb
+}
+
+.tableHeadClone .tableHead5 {
+	border-color: #1d7ebb
+}
+
+.tableHeadClone .tableHead6 {
+	border-color: #1d7ebb
+}
+
+.tableHeadClone .tableHead7 {
+	border-color: #1d7ebb
+}
+
+.tableHeadClone .tableHead1 .tableHeadBottom1 {
+	line-height: 44px;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 6px
+}
+
+.tableHeadClone .tableHead2 .tableHeadBottom2 {
+	line-height: 44px;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 6px
+}
+
+.tableHeadClone .tableHead3 .tableHeadBottom3 {
+	line-height: 44px;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 6px
+}
+
+.tableHeadClone .tableHead4 .tableHeadBottom4 {
+	line-height: 44px;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 6px
+}
+
+.tableHeadClone .tableHead5 .tableHeadBottom5 {
+	line-height: 44px;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 6px
+}
+
+.tableHeadClone .tableHead6 .tableHeadBottom6 {
+	line-height: 44px;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 6px
+}
+
+.tableHeadClone .tableHead7 .tableHeadBottom7 {
+	line-height: 44px;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 6px
+}
+
+.hot {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/hot.png) no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/hot.gif) no-repeat;
+	position: absolute;
+	top: -7px;
+	left: -6px;
+	_top: -8px;
+	_left: -6px
+}
+
+.smallhot {
+	display: block;
+	width: 33px;
+	height: 33px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/smallhot.png) no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/smallhot.gif) no-repeat;
+	position: absolute;
+	top: 9px;
+	left: -1px
+}
+
+.proFuncContent {
+	clear: both;
+	display: block;
+	position: relative;
+	width: 960px;
+	height: auto;
+	text-align: center
+}
+
+.hide {
+	display: none
+}
+
+.proTrPrice {
+	clear: both;
+	display: block;
+	width: 956px;
+	height: 40px;
+	color: #f30;
+	font-size: 16px;
+	padding-left: 4px
+}
+
+.proTrFirst {
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 60px;
+	font-family: "微软雅黑"
+}
+
+.proTrSecond1 {
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 60px
+}
+
+.proTrSecond2 {
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 60px;
+	font-family: "微软雅黑"
+}
+
+.proTrSecond3 {
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 75px
+}
+
+.proTrInde {
+	clear: both;
+	display: block;
+	width: 944px;
+	height: 60px;
+	text-align: center;
+	background: #f0f4f6;
+	line-height: 60px;
+	font-family: "微软雅黑";
+	color: #666;
+	font-size: 18px;
+	padding-left: 16px
+}
+
+.proTrTitle {
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 55px;
+	text-align: left;
+	line-height: 65px;
+	font-family: "微软雅黑";
+	color: #f30;
+	font-size: 20px;
+	border-bottom: 2px solid #ff704c
+}
+
+.proTrBtn {
+	clear: both;
+	display: block;
+	width: 960px;
+	height: 70px;
+	position: relative;
+	margin-bottom: 63px
+}
+
+.proTd1-1 {
+	float: left;
+	width: 215px;
+	color: #333;
+	font-size: 14px;
+	position: relative
+}
+
+.proTd1-1 .details {
+	display: inline-block;
+	position: absolute;
+	top: 11px;
+	width: 16px;
+	height: 16px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/wenhao.png) no-repeat
+}
+
+.proTd1-2 {
+	float: left;
+	width: 215px;
+	color: #333;
+	font-size: 14px
+}
+
+.proTd1-2 span {
+	letter-spacing: 0
+}
+
+.proTd2 {
+	float: left;
+	width: 185px;
+	font-size: 14px;
+	color: #333
+}
+
+.proTd3 {
+	float: left;
+	width: 185px;
+	font-size: 14px;
+	color: #333
+}
+
+.proTd4 {
+	float: left;
+	width: 185px;
+	font-size: 14px;
+	color: #333
+}
+
+.proTd5 {
+	float: left;
+	width: 185px;
+	font-size: 14px;
+	color: #333
+}
+
+.proTd6 {
+	display: none;
+	font-size: 14px;
+	color: #333
+}
+
+.proTd7 {
+	display: none
+}
+
+.proIndeLeft {
+	float: left;
+	width: 154px;
+	height: 40px;
+	line-height: 40px;
+	color: #33649e;
+	font-size: 14px;
+	background: #fcfcfc;
+	font-family: "微软雅黑"
+}
+
+.proIndeRight {
+	float: left;
+	width: 728px;
+	height: 40px;
+	position: relative
+}
+
+.heightPrice {
+	height: 40px;
+	font-family: "微软雅黑";
+	color: #f30;
+	margin-left: -2px
+}
+
+.heightPrice2 {
+	height: 40px;
+	font-family: "微软雅黑";
+	color: #f30
+}
+
+.heightFirst {
+	height: 60px;
+	line-height: 60px
+}
+
+.heightSecond1 {
+	height: 60px;
+	line-height: 60px;
+	font-family: "微软雅黑"
+}
+
+.heightSecond2 {
+	height: 34px;
+	line-height: 34px;
+	font-family: "微软雅黑";
+	padding-top: 13px;
+	padding-bottom: 13px
+}
+
+.heightSecond3 {
+	height: 74px;
+	line-height: 74px
+}
+
+.heightBtn {
+	height: 65px
+}
+
+.mark {
+	background: #f0f4f6
+}
+
+.proLineTop {
+	border-top: 1px solid #d8d8d8
+}
+
+.proBottom {
+	height: 65px;
+	line-height: 65px
+}
+
+.proLineDottedBottom {
+	border-bottom: 1px dotted #dfdfdf;
+	font-family: "微软雅黑"
+}
+
+.support {
+	display: inline-block;
+	width: 21px;
+	height: 54px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/yes3_w.jpg) 0 50% no-repeat
+}
+
+.supportGray {
+	display: inline-block;
+	width: 21px;
+	height: 54px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/yes3_g.jpg) 0 50% no-repeat
+}
+
+.nosupport {
+	display: inline-block;
+	width: 21px;
+	height: 54px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/no3_w.jpg) 0 50% no-repeat
+}
+
+.nosupportGray {
+	display: inline-block;
+	width: 21px;
+	height: 54px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/no3_g.jpg) 0 50% no-repeat
+}
+
+.xiala {
+	display: inline-block;
+	width: 184px;
+	height: 10px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/down.png) no-repeat;
+	position: absolute;
+	left: 282px;
+	cursor: pointer
+}
+
+.xiala2 {
+	display: inline-block;
+	width: 184px;
+	height: 10px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/down.png) no-repeat;
+	position: absolute;
+	right: 262px;
+	cursor: pointer
+}
+
+.shangshou {
+	display: inline-block;
+	width: 184px;
+	height: 10px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/up.png) no-repeat;
+	position: absolute;
+	left: 282px;
+	cursor: pointer
+}
+
+.shangshou2 {
+	width: 184px;
+	height: 10px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/up.png) no-repeat;
+	position: absolute;
+	right: 262px;
+	cursor: pointer
+}
+
+.website {
+	width: 214px;
+	height: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/website.jpg) 0 50% no-repeat
+}
+
+.proOpen {
+	display: inline-block;
+	width: 120px;
+	line-height: 40px;
+	background: #f40;
+	margin-top: 15px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+.proOpen:hover {
+	background: #2fb518
+}
+
+.proBuy {
+	display: inline-block;
+	width: 120px;
+	line-height: 40px;
+	background: #f40;
+	margin-top: 15px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+.proBuy:hover {
+	background: #2fb518
+}
+
+.proFoot {
+	display: block;
+	width: 884px;
+	height: 29px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/foot.png) no-repeat
+}
+
+.mao {
+	width: 50px;
+	height: 163px;
+	position: fixed;
+	bottom: 30px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	z-index: 100px;
+	margin-left: 1000px;
+	_position: absolute;
+	_top: expression(eval(document.documentElement.scrollTop)+600)
+}
+
+.mao .backTop {
+	width: 47px;
+	height: 47px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/backtop.jpg) center no-repeat;
+	cursor: pointer
+}
+
+.mao .backTop:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/backtop_h.jpg) center no-repeat
+}
+
+.mao .backComputer {
+	width: 47px;
+	height: 47px;
+	background: #b5b5b5;
+	margin-top: 7px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer
+}
+
+.mao .backComputer:hover {
+	background: #f30
+}
+
+.mao .backPhone {
+	width: 47px;
+	height: 47px;
+	background: #b5b5b5;
+	margin-top: 7px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer
+}
+
+.mao .backPhone:hover {
+	background: #f30
+}
+
+.mao .backWeixin {
+	width: 47px;
+	height: 47px;
+	background: #b5b5b5;
+	margin-top: 7px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer
+}
+
+.mao .backWeixin:hover {
+	background: #f30
+}
+
+.mao .backFeature {
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	padding: 8px;
+	line-height: 15px
+}
+
+.headDiv {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	display: none;
+	z-index: 1000;
+	opacity: .9;
+	-moz-opacity: .9;
+	filter: alpha(opacity=90);
+	_position: absolute;
+	_left: 0;
+	_top: expression(eval(document.documentElement.scrollTop))
+}
+
+.proBorderRight,
+.proBorderLeft,
+.proBorderBottom {
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	width: 1px
+}
+
+.proBorderRight,
+.proBorderLeft {
+	top: -1px;
+	border-left: 1px solid #389cda
+}
+
+.proBorderBottom {
+	border-bottom: 1px solid #389cda
+}
+
+.proBanner {
+	width: 100%;
+	height: auto;
+	background: #faf1eb
+}
+
+.proBannerImg {
+	width: 960px;
+	height: 270px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/banner_3.png) no-repeat;
+	margin: 0 auto
+}
+
+.webBanner_reg {
+	clear: both;
+	width: 100%;
+	height: 74px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/bannerbg.png) 0 0 repeat-x
+}
+
+.banner_reg {
+	height: 171px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/banner_3.png) center no-repeat
+}
+
+.arrow_reg {
+	display: block;
+	width: 81px;
+	height: 64px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/arrow.png) no-repeat;
+	position: absolute;
+	left: 385px;
+	top: 33px
+}
+
+.regContent {
+	clear: both;
+	display: block;
+	width: 806px;
+	height: auto;
+	margin: auto;
+	padding-top: 25px
+}
+
+.regStep {
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 80px
+}
+
+.regStepLeft {
+	float: left;
+	width: 180px;
+	height: 100%
+}
+
+.regStepOne {
+	float: left;
+	width: 195px;
+	height: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/one.png) no-repeat
+}
+
+.regToRight {
+	float: left;
+	width: 60px;
+	height: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/toright.png) 0 22px no-repeat
+}
+
+.regStepTwo {
+	float: left;
+	width: 240px;
+	height: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/two.png) no-repeat
+}
+
+.regLine1 {
+	clear: both;
+	width: 100%;
+	height: 16px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/dotted.png) 50% 0 no-repeat
+}
+
+.regLine2 {
+	clear: both;
+	width: 500px;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	border-top: 1px dotted #d7d7d7
+}
+
+.regIframe {
+	width: 100%;
+	height: 465px
+}
+
+.regFoot {
+	clear: both;
+	width: 808px;
+	height: 33px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/foot.png) no-repeat;
+	margin: auto;
+	margin-bottom: 20px
+}
+
+.successContent {
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 580px
+}
+
+.successPaper {
+	display: block;
+	width: 790px;
+	height: 380px;
+	background-color: #fff;
+	position: relative;
+	margin: auto
+}
+
+.sucPaperSmile {
+	position: absolute;
+	left: 130px;
+	top: 70px
+}
+
+.sucPaperPhone {
+	position: absolute;
+	right: 30px;
+	bottom: 10px
+}
+
+.sucPaperText {
+	position: absolute;
+	left: 180px;
+	top: 200px;
+	display: block;
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #838383;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/ico.png) no-repeat 0 10px;
+	padding-left: 30px
+}
+
+.sucPaperText a {
+	color: #004dcc
+}
+
+.sucPaperBg {
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+.successBottom {
+	clear: both;
+	display: block;
+	width: 790px;
+	height: 7px;
+	margin: auto
+}
+
+.sucBotLeft {
+	float: left;
+	width: 7px;
+	height: 7px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/botleft.png) no-repeat
+}
+
+.sucBotMiddle {
+	float: left;
+	width: 776px;
+	height: 7px
+}
+
+.sucBotRight {
+	float: left;
+	width: 7px;
+	height: 7px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/botright.png) no-repeat
+}
+
+.webPrice {
+	clear: both;
+	height: auto
+}
+
+.webPrice .proDiv {
+	margin-left: 38px;
+	height: 30px;
+	font-size: 12px
+}
+
+.webPrice .proDiv .text {
+	display: inline-block;
+	height: 15px;
+	padding-left: 30px;
+	color: #333;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/pro315.gif) 5px 0 no-repeat
+}
+
+.webPrice .proDiv a {
+	color: #09c;
+	text-decoration: none
+}
+
+.priceBanner {
+	width: 883px;
+	height: 100px;
+	margin: 0 auto 20px auto;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/banner.png) no-repeat
+}
+
+.priceDiv {
+	width: 883px;
+	height: auto;
+	padding: 0 39px 21px 38px
+}
+
+.priceHead {
+	clear: both;
+	display: block;
+	width: 881px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	border: 1px solid #d2d2d2;
+	font-family: "微软雅黑"
+}
+
+.priceHead1 {
+	float: left;
+	width: 125px;
+	height: 100%;
+	border-right: 1px solid #9bceeb;
+	font-family: "微软雅黑"
+}
+
+.priceHead2 {
+	float: left;
+	width: 351px;
+	height: 100%;
+	border-right: 1px solid #9bceeb
+}
+
+.priceHead2Top {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #9bceeb;
+	text-align: center
+}
+
+.priceHead2Top a {
+	color: #fff799;
+	font-size: 12px;
+	text-decoration: none
+}
+
+.priceHead2Bottom {
+	width: 100%;
+	height: 29px;
+	line-height: 28px;
+	font-size: 12px
+}
+
+.priceHead21 {
+	float: left;
+	width: 116px;
+	height: 100%;
+	border-right: 1px solid #9bceeb
+}
+
+.priceHead24 {
+	float: left;
+	width: 116px;
+	height: 100%;
+	border-right: 1px solid #9bceeb;
+	font-size: 14px;
+	color: #fff6db;
+	text-shadow: 1px 1px 1px #426895;
+	font-weight: bold
+}
+
+.priceHead22 {
+	float: left;
+	width: 116px;
+	height: 100%;
+	border-right: 1px solid #9bceeb
+}
+
+.priceHead23 {
+	float: left;
+	width: 117px;
+	height: 100%
+}
+
+.priceHead3 {
+	float: left;
+	width: 300px;
+	height: 100%;
+	border-right: 1px solid #9bceeb
+}
+
+.priceHead4 {
+	float: left;
+	width: 102px;
+	height: 100%
+}
+
+.priceLine {
+	clear: both;
+	width: 881px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	background-color: #fff;
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed
+}
+
+.priceTd1 {
+	float: left;
+	width: 125px;
+	height: 100%;
+	border-right: 1px solid #ededed;
+	position: relative;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000
+}
+
+.priceTd_1 {
+	float: left;
+	width: 125px;
+	height: 100%;
+	border-right: 1px solid #ededed;
+	position: relative;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #111;
+	text-indent: 24px;
+	display: table-cell;
+	vertical-align: middle
+}
+
+.priceTd_1 img {
+	_margin: 16px 0
+}
+
+.priceTd1 a {
+	text-decoration: none
+}
+
+.priceTd1 a:hover {
+	text-decoration: underline
+}
+
+.priceTd1 img {
+	position: absolute;
+	top: 10px;
+	right: 10px
+}
+
+.priceTd2 {
+	float: left;
+	width: 351px;
+	height: 100%;
+	border-right: 1px solid #ededed
+}
+
+.priceTd21 {
+	float: left;
+	width: 116px;
+	height: 100%;
+	border-right: 1px solid #ededed;
+	font-family: "微软雅黑";
+	color: #000
+}
+
+.priceTd22 {
+	float: left;
+	width: 116px;
+	height: 70px;
+	padding: 11px 0;
+	border-right: 1px solid #ededed;
+	line-height: 32px;
+	font-family: "微软雅黑";
+	color: #000
+}
+
+.priceTd23 {
+	float: left;
+	width: 117px;
+	height: 46px;
+	padding: 11px 0;
+	line-height: 32px;
+	font-family: "微软雅黑";
+	color: #000
+}
+
+.priceTd24 {
+	float: left;
+	width: 116px;
+	height: 100%;
+	border-right: 1px solid #ededed;
+	font-family: "微软雅黑";
+	color: #f20;
+	font-weight: bold
+}
+
+.priceTd3 {
+	float: left;
+	width: 288px;
+	height: 100%;
+	border-right: 1px solid #ededed;
+	text-align: left;
+	padding-left: 12px;
+	font-family: "微软雅黑";
+	color: #999
+}
+
+.priceTd31 {
+	float: left;
+	width: 270px;
+	height: 52px;
+	border-right: 1px solid #ededed;
+	padding: 10px 15px;
+	line-height: 25px;
+	text-align: left;
+	font-family: "微软雅黑";
+	color: #999
+}
+
+.priceTd32 {
+	float: left;
+	width: 272px;
+	height: 60px;
+	border-right: 1px solid #ededed;
+	padding: 15px 14px;
+	line-height: 20px;
+	text-align: left;
+	font-family: "微软雅黑";
+	color: #999
+}
+
+.priceRefund {
+	color: #09c
+}
+
+.priceTd4 {
+	float: left;
+	width: 102px;
+	height: 100%
+}
+
+.priceTd4 .buyBtn {
+	display: inline-block;
+	width: 89px;
+	height: 29px;
+	line-height: 29px;
+	background-color: #389cda;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #fff
+}
+
+.priceTd4 .buyBtn:hover {
+	background-color: #42abe2
+}
+
+.priceTd4 .buyPop {
+	display: inline-block;
+	width: 89px;
+	height: 29px;
+	line-height: 29px;
+	background-color: #f77b1b;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #fff
+}
+
+.priceTd4 .buyPop:hover {
+	background-color: #f88e1e
+}
+
+.oldPrice {
+	text-decoration: line-through
+}
+
+.newPrice {
+	font-weight: bold
+}
+
+.newPrice2 {
+	color: #444;
+	font-weight: bold
+}
+
+.newPrice3 {
+	color: #000;
+	font-weight: bold
+}
+
+.newPrice3_2 {
+	color: #595959;
+	font-weight: bold
+}
+
+.newPrice3_3 {
+	color: #ff6500;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.newPrice3_4 {
+	color: #f20;
+	font-weight: bold;
+	font-size: 16px
+}
+
+.priceBackGray {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/backgray.png) repeat-x
+}
+
+.priceTd22 .ad {
+	color: #fff;
+	background: #ff6500;
+	font-family: "微软雅黑";
+	padding: 2px 5px
+}
+
+.priceBottom {
+	clear: both;
+	width: 881px;
+	height: 48px;
+	line-height: 55px;
+	text-align: center;
+	background-color: #fff;
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed
+}
+
+.priceTd5 {
+	float: left;
+	width: 351px;
+	height: 100%;
+	border-right: 1px solid #ededed;
+	letter-spacing: 3px;
+	font-family: "微软雅黑";
+	color: 000
+}
+
+.priceTd6 {
+	float: left;
+	width: 391px;
+	height: 100%;
+	text-align: left;
+	padding-left: 12px;
+	font-family: "微软雅黑";
+	color: #b5acad
+}
+
+.priFoot {
+	clear: both;
+	width: 100%;
+	height: 15px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/foot.png) no-repeat
+}
+
+.webContact {
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 550px
+}
+
+.contactPaper {
+	display: block;
+	width: 807px;
+	height: 400px;
+	background-color: #fff;
+	position: relative;
+	margin: auto;
+	border-top: 1px solid #e9e9e9;
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9
+}
+
+.contactPaper .imgContact {
+	position: absolute;
+	top: 65px;
+	left: 90px
+}
+
+.contactPaper .people {
+	position: absolute;
+	bottom: 30px;
+	right: 55px
+}
+
+.contactDotted {
+	width: 650px;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	margin: auto;
+	margin-top: 135px
+}
+
+.contactText {
+	position: absolute;
+	display: block;
+	width: 500px;
+	height: auto;
+	left: 55px;
+	font-size: 14px
+}
+
+.contactText .conTextLine {
+	width: auto;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 40px;
+	font-family: "微软雅黑";
+	color: #21709b
+}
+
+.contactText .conTextLine a {
+	font-family: "微软雅黑";
+	color: #21709b
+}
+
+.contactText .conTextLine a:hover {
+	color: #f30
+}
+
+.contactBottom {
+	clear: both;
+	display: block;
+	width: 809px;
+	height: 7px;
+	margin: auto
+}
+
+.conBotLeft {
+	float: left;
+	width: 7px;
+	height: 7px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/botleft.png) no-repeat
+}
+
+.conBotMiddle {
+	float: left;
+	width: 795px;
+	height: 7px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/botmiddle.png) repeat-x
+}
+
+.conBotRight {
+	float: left;
+	width: 7px;
+	height: 7px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/botright.png) no-repeat
+}
+
+.webAlliance {
+	clear: both;
+	display: block;
+	width: 100%;
+	height: auto
+}
+
+.webAlliance .banner {
+	width: 100%;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/bnr.jpg) center no-repeat;
+	height: 360px
+}
+
+.alliancePaper1 {
+	width: 100%;
+	height: 360px;
+	background: #fff
+}
+
+.alliancePaper1 .content {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	width: 1080px;
+	margin: 0 auto;
+	line-height: 36px;
+	font-family: "微软雅黑";
+	padding-top: 92px;
+	height: 100%
+}
+
+.alliancePaper1 .content .btn1 {
+	width: 200px;
+	height: 50px;
+	background: #d7322d;
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	line-height: 50px;
+	display: block;
+	margin: 51px auto
+}
+
+.alliancePaper1 .content .btn1:hover {
+	background: #e14641
+}
+
+.alliancePaper2 {
+	width: 100%;
+	height: 400px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/l1.jpg) center no-repeat
+}
+
+.alliancePaper2 .content {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	width: 1080px;
+	margin: 0 auto;
+	line-height: 36px;
+	font-family: "微软雅黑";
+	height: 100%
+}
+
+.alliancePaper2 .content .contentRight {
+	width: 435px;
+	height: auto;
+	float: right;
+	text-align: left;
+	margin-top: 114px
+}
+
+.alliancePaper2 .content .btn2 {
+	width: 168px;
+	height: 42px;
+	background: #d7322d;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 42px;
+	display: block;
+	margin-top: 28px
+}
+
+.alliancePaper2 .content .btn2:hover {
+	background: #e14641
+}
+
+.alliancePaper3 {
+	width: 100%;
+	height: 400px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/l2.jpg) center no-repeat
+}
+
+.alliancePaper3 .content {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	height: 100%
+}
+
+.alliancePaper3 .content .contentLeft {
+	width: 400px;
+	height: auto;
+	float: left;
+	text-align: left;
+	margin-top: 100px
+}
+
+.alliancePaper3 .content .btn3 {
+	width: 168px;
+	height: 42px;
+	background: #d7322d;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 42px;
+	display: block;
+	margin-top: 28px
+}
+
+.alliancePaper3 .content .btn3:hover {
+	background: #e14641
+}
+
+.alliancePaper4 {
+	width: 100%;
+	height: 400px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/l3.jpg) center no-repeat
+}
+
+.alliancePaper4 .content {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	width: 1080px;
+	margin: 0 auto;
+	line-height: 36px;
+	font-family: "微软雅黑";
+	height: 100%
+}
+
+.alliancePaper4 .content .contentRight {
+	width: 435px;
+	height: auto;
+	float: right;
+	text-align: left;
+	margin-top: 114px
+}
+
+.alliancePaper4 .content .btn4 {
+	width: 168px;
+	height: 42px;
+	background: #d7322d;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 42px;
+	display: block;
+	margin-top: 28px
+}
+
+.alliancePaper4 .content .btn4:hover {
+	background: #e14641
+}
+
+.alliancePaper5 {
+	width: 100%;
+	height: 400px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/l4.jpg) center no-repeat
+}
+
+.alliancePaper5 .content {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	width: 670px;
+	margin: 0 auto;
+	line-height: 36px;
+	font-family: "微软雅黑";
+	height: 100%
+}
+
+.alliancePaper5 .content .contentCenter {
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: left;
+	padding-top: 250px;
+	margin-left: 25px
+}
+
+.alliancePaper5 .content .btn5 {
+	width: 200px;
+	height: 50px;
+	background: #d7322d;
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	line-height: 50px;
+	display: block;
+	float: left;
+	margin-left: 50px
+}
+
+.alliancePaper5 .content .btn5:hover {
+	background: #e14641
+}
+
+.alliancePaper {
+	width: 788px;
+	height: auto;
+	margin: auto;
+	background-color: #fff;
+	padding: 40px 62px 60px 48px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+	border: 1px solid #eaeaea;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px
+}
+
+.alTitle {
+	width: 100%;
+	height: 47px;
+	border-bottom: 1px dotted #d9d9d9;
+	padding-top: 15px
+}
+
+.alTitle span {
+	float: left;
+	display: block;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #33649e;
+	color: #fff;
+	text-align: center
+}
+
+.alTitle a {
+	float: right;
+	display: inline-block;
+	line-height: 60px;
+	text-decoration: none;
+	color: #33649e;
+	margin-right: 30px
+}
+
+.alContent {
+	clear: both;
+	width: 100%;
+	height: auto
+}
+
+.alContent .alText {
+	width: 770px;
+	height: auto;
+	padding: 20px 20px 20px 0;
+	text-indent: 2em;
+	line-height: 23px
+}
+
+.alInvPic {
+	clear: both;
+	width: 100%;
+	height: 265px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/inverstment.png) 28px 10px no-repeat;
+	position: relative
+}
+
+.alInvPic a {
+	display: block;
+	position: absolute;
+	width: 120px;
+	height: 32px;
+	top: 40px;
+	left: 40px
+}
+
+.alCoopPic {
+	clear: both;
+	width: 100%;
+	height: 620px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/cooperation.png) center no-repeat;
+	margin: 20px 0;
+	position: relative;
+	font-size: 12px;
+	letter-spacing: normal
+}
+
+.alCoopPic .title {
+	position: absolute;
+	width: 150px;
+	height: auto;
+	top: 50px;
+	left: 28px;
+	font-size: 14px
+}
+
+.alCoopPic .circle1 {
+	position: absolute;
+	width: 95px;
+	height: auto;
+	line-height: 25px;
+	top: 25px;
+	left: 360px;
+	color: #fff
+}
+
+.alCoopPic .circle2 {
+	position: absolute;
+	width: 90px;
+	height: auto;
+	line-height: 25px;
+	top: 275px;
+	left: 99px;
+	color: #fff
+}
+
+.alCoopPic .circle3 {
+	position: absolute;
+	width: 90px;
+	height: auto;
+	line-height: 23px;
+	top: 263px;
+	right: 87px;
+	color: #fff
+}
+
+.alCoopPic .circle4 {
+	position: absolute;
+	width: 95px;
+	height: auto;
+	line-height: 21px;
+	bottom: 14px;
+	left: 360px;
+	color: #fff
+}
+
+.alCoopPic .square1 {
+	position: absolute;
+	width: 150px;
+	height: auto;
+	top: 145px;
+	left: 180px;
+	color: #00a006
+}
+
+.alCoopPic .square2 {
+	position: absolute;
+	width: 107px;
+	height: auto;
+	line-height: 18px;
+	top: 195px;
+	right: 196px;
+	color: #00a487
+}
+
+.alCoopPic .square3 {
+	position: absolute;
+	width: 110px;
+	height: auto;
+	bottom: 150px;
+	left: 195px;
+	color: #b10092
+}
+
+.alCoopPic .square4 {
+	position: absolute;
+	width: 190px;
+	height: auto;
+	line-height: 20px;
+	bottom: 140px;
+	right: 160px;
+	_right: 140px;
+	color: #cd9000
+}
+
+.squareText {
+	clear: both;
+	width: 100%;
+	height: auto;
+	text-indent: -1em;
+	_text-indent: -9px;
+	padding-left: 20px
+}
+
+.alCoopPic a {
+	display: block;
+	position: absolute;
+	width: auto;
+	height: 16px;
+	line-height: 16px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/view.png) no-repeat;
+	bottom: 0;
+	right: 110px;
+	padding-left: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #b3b3b3
+}
+
+.alExtPic {
+	clear: both;
+	width: 100%;
+	height: 347px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/extend.png) no-repeat
+}
+
+.webProject {
+	clear: both;
+	display: block;
+	width: 100%;
+	height: auto;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/shadow_comm.png) center 0 no-repeat
+}
+
+.projectPaper {
+	width: 820px;
+	height: auto;
+	margin: auto;
+	background-color: #fff;
+	padding: 40px;
+	font-size: 14px;
+	margin-bottom: 50px;
+	border: 1px solid #eaeaea;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px
+}
+
+.projectTitle {
+	width: 740px;
+	height: 51px;
+	line-height: 65px;
+	border-bottom: 1px dotted #dadada;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/leaf.png) 10px 0 no-repeat;
+	padding-left: 50px;
+	font-weight: bold
+}
+
+.projectText {
+	clear: both;
+	width: 790px;
+	height: auto;
+	line-height: 23px;
+	padding: 30px 0 40px 30px;
+	color: #595959;
+	font-size: 12px;
+	position: relative
+}
+
+.projectPic {
+	display: block;
+	width: 347px;
+	height: 176px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/peitu.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+.projectBottom {
+	clear: both;
+	width: 750px;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 35px;
+	text-align: right;
+	font-size: 12px;
+	letter-spacing: 1px;
+	border-top: 1px dotted #dbdbdb
+}
+
+.projectBottom span {
+	display: inline-block;
+	width: 35px;
+	height: 26px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/contact.png) no-repeat
+}
+
+.webSeoCase {
+	clear: both;
+	width: 998px;
+	height: auto;
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	color: #595959
+}
+
+.webSeoCase .caseConTitle {
+	color: #595959
+}
+
+.webSeoCase .caseTitle {
+	color: #484848
+}
+
+.webSeoCase .caseConList .caseForm {
+	float: left;
+	width: 285px;
+	height: auto;
+	border: 0;
+	padding: 15px 35px;
+	padding-left: 0;
+	border-bottom: 1px solid #ccc
+}
+
+.webSeoCase .caseConList .caseForm img {
+	margin: 10px
+}
+
+.webSeoCase .caseTop {
+	background: #f2f2f2;
+	height: 54px;
+	line-height: 54px;
+	width: 960px;
+	margin-left: 12px
+}
+
+.seoCaseTop {
+	width: 940px;
+	height: 40px;
+	line-height: 40px;
+	background: #f8f8f8;
+	margin-left: 10px
+}
+
+.seoCaseTitle {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+	_margin-left: 10px;
+	font-family: "Microsoft Yahei"
+}
+
+.seoCaseTop a {
+	text-decoration: none;
+	color: #595959
+}
+
+.seoCaseTop a:hover {
+	color: #33649e
+}
+
+.seoCaseContent {
+	clear: both;
+	width: 100%;
+	height: auto
+}
+
+.seoCaseConTop {
+	width: 100%;
+	height: 12px
+}
+
+.seoCaseConMiddle {
+	height: auto;
+	padding: 10px
+}
+
+.seoCaseConTitle {
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px
+}
+
+.seoCaseTotal {
+	float: right;
+	padding-right: 45px;
+	color: #33649e
+}
+
+.seoCaseConList {
+	clear: both;
+	width: 100%;
+	height: auto
+}
+
+.seoCaseConList .seoCaseForm {
+	float: left;
+	width: 250px;
+	height: 240px;
+	padding: 10px 20px 0 15px
+}
+
+.seoCasePic {
+	width: 215px;
+	height: 120px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/casepic.png) no-repeat;
+	padding: 13px 0 1px 19px
+}
+
+.seoCasePic a {
+	display: block;
+	width: 200px;
+	height: 108px;
+	overflow: hidden
+}
+
+.seoCasePic a img {
+	display: block;
+	width: 200px;
+	height: 200px
+}
+
+.seoCaseConBottom {
+	width: 100%;
+	height: 18px
+}
+
+.webProCase {
+	clear: both;
+	width: 877px;
+	height: auto;
+	margin: auto;
+	margin-bottom: 30px;
+	text-shadow: 1px 1px #fff;
+	font-family: "微软雅黑"
+}
+
+.proCaseTop {
+	width: 100%;
+	height: 40px;
+	line-height: 40px
+}
+
+.proCaseTitle {
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 20px
+}
+
+.proCaseTop a {
+	text-decoration: none;
+	color: #595959
+}
+
+.proCaseTop a:hover {
+	color: #33649e
+}
+
+.proCaseContent {
+	clear: both;
+	width: 100%;
+	height: auto
+}
+
+.proCaseConTop {
+	width: 100%;
+	height: 12px
+}
+
+.proCaseConMiddle {
+	width: 857px;
+	height: auto;
+	padding: 10px
+}
+
+.proCaseConList {
+	clear: both;
+	width: 100%;
+	height: auto
+}
+
+.proCaseConList .proCaseForm {
+	float: left;
+	width: 250px;
+	height: 50px;
+	padding: 0 10px 10px 25px
+}
+
+.proCaseText {
+	clear: both;
+	width: 100%;
+	height: 21px;
+	line-height: 21px;
+	text-align: left;
+	padding: 0;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px #fff
+}
+
+.proCaseLink a {
+	text-decoration: underline;
+	letter-spacing: 0
+}
+
+.proCaseConBottom {
+	width: 100%;
+	height: 18px
+}
+
+.proCaseLinkTitle {
+	float: left;
+	text-align: left;
+	width: 56px
+}
+
+.proCaseLinkContent {
+	float: left;
+	text-align: left;
+	width: 194px
+}
+
+.proCaseKeywordTitle {
+	float: left;
+	text-align: left;
+	width: 50px
+}
+
+.proCaseKeywordContent {
+	float: left;
+	text-align: left;
+	width: 145px
+}
+
+.proCaseKeywordDiv {
+	text-align: left;
+	width: 145px
+}
+
+.mobiTableDiv {
+	padding: 10px 60px 10px 60px
+}
+
+.mobiTableDiv_in {
+	background: #fff;
+	padding: 17px
+}
+
+.mobiTableBorderRight {
+	border-right: 1px #c2c2c2 solid
+}
+
+.mobiTableDivHead3 span {
+	margin-left: 5px
+}
+
+.mobiTableDiv_inTable {
+	border: 1px solid #c2c2c2;
+	border-bottom: 0
+}
+
+.mobiTableDivHead {
+	background: #dfe4e8;
+	height: 54px
+}
+
+.mobiTableDivHead div {
+	width: 200px;
+	height: 54px;
+	float: left;
+	text-align: center;
+	line-height: 54px;
+	font-size: 16px;
+	color: #000;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	font-family: "微软雅黑"
+}
+
+.mobiTableDivHead .mobiTableDivHead2 {
+	width: 200px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/mianfei.png) 21% 50% no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/mianfei_gif.gif) 21% 50% no-repeat
+}
+
+.mobiTableDivHead .mobiTableDivHead3 {
+	width: 200px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/xuancai.png) 21% 50% no-repeat;
+	_background: url(https://www.eyoucms.com/skin/help_xin/images/xuancai_gif.gif) 21% 50% no-repeat
+}
+
+.mobiTableDivHead .mobiTableDivHead4 {
+	width: 200px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/yingxiao.png) 23% 50% no-repeat
+}
+
+.mobiTableBorder {
+	border-bottom: 1px #c2c2c2 solid
+}
+
+.mobiTableMiddle1 {
+	height: 60px
+}
+
+.mobiTableDivMiddle1Td {
+	width: 200px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	text-indent: .8em
+}
+
+.mobiTableDivMiddle1Td2 {
+	width: 200px;
+	text-align: center
+}
+
+.mobiTableDivMiddle1Td p {
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #b11213;
+	font-weight: 600
+}
+
+.mobiTableDivMiddle1Td p span {
+	color: #666;
+	font-size: 12px;
+	margin-left: 2px;
+	font-weight: normal
+}
+
+.mobiTableDivMiddle1Td p a {
+	display: block;
+	width: 91px;
+	height: 26px;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 26px;
+	cursor: pointer;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/buttonblue.png) 0 0 no-repeat;
+	text-indent: -9999em
+}
+
+.mobiTableDivMiddle1Td p a:hover {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/buttonblue.png) 0 100% no-repeat
+}
+
+.mobiTableMiddle2Left {
+	width: 90px;
+	height: 200px;
+	float: left;
+	font-size: 14px;
+	padding-left: 10px;
+	background: #dfe4e8
+}
+
+.mobiTableMiddle2RightTd {
+	float: left;
+	width: 200px;
+	text-align: center
+}
+
+.mobiTableBorderRightLast {
+	width: 200px
+}
+
+.mobiTableMiddle2RightIn {
+	height: 24px
+}
+
+.mobiTableMiddle2RightIn div {
+	padding: 5px 0
+}
+
+.mobiTableMiddle2RightIn .mobiTableMiddle2RightTd1 {
+	float: left;
+	width: 190px;
+	padding-left: 10px
+}
+
+.mobiTableMiddle2RightTd span {
+	display: block;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/rightmail.gif) 50% 50% no-repeat;
+	margin: 0 auto;
+	text-indent: -9999em
+}
+
+.mobiTableMiddle2RightTd span.nosupport {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/wrongmail.gif) 50% 50% no-repeat
+}
+
+.mobiHeight {
+	height: 50px
+}
+
+.mobiHeight div {
+	line-height: 20px
+}
+
+.mobiHeight .mobiTableMiddle2RightTd span {
+	height: 40px
+}
+
+.mobititle1 {
+	height: 151px;
+	*height: 150px;
+	_height: 160px;
+	padding-top: 150px
+}
+
+.mobititle2 {
+	height: 150px;
+	*height: 151px;
+	_height: 160px;
+	padding-top: 100px
+}
+
+.mobiTdEven {
+	background: #f4f4f4
+}
+
+.mobiFoot {
+	width: 840px;
+	height: 15px;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/foot.png) 50% 50% no-repeat;
+	margin-bottom: 10px
+}
+
+.mobiClear {
+	clear: both
+}
+
+.mobiTableTdSingle {
+	float: left;
+	width: 210px;
+	height: 14px;
+	padding: 5px 0;
+	text-align: center
+}
+
+.mobiTableTdSingleRight {
+	float: left;
+	width: 210px;
+	height: 14px;
+	padding: 5px 0;
+	text-align: center
+}
+
+.mobiTableTdSingle .mailSupport {
+	display: block;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/rightmail.gif) 50% 50% no-repeat
+}
+
+.mobiTableTdSingle .mailNoSupport {
+	display: block;
+	background: url(https://www.eyoucms.com/skin/help_xin/images/wrongmail.gif) 50% 50% no-repeat
+}
+
+.pagenation_news {
+	clear: both;
+	float: right;
+	height: 25px;
+	margin: 30px 0;
+	text-align: center
+}
+
+.pagePrev_news {
+	float: left;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #dadada;
+	margin: 0 5px;
+	color: #999;
+	text-decoration: none;
+	background: #fff;
+	transition: background-color .2s ease-out
+}
+
+.pageNo_news {
+	float: left;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #dadada;
+	margin: 0 5px;
+	color: #999;
+	text-decoration: none;
+	background: #fff;
+	transition: background-color .2s ease-out
+}
+
+.pageNext_news {
+	float: left;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #dadada;
+	margin: 0 5px;
+	color: #999;
+	text-decoration: none;
+	background: #fff;
+	transition: background-color .2s ease-out
+}
+
+.pagePrev_news:hover {
+	border-color: #999;
+	background: #b1b1b1;
+	color: #fff
+}
+
+.pageNo_news:hover {
+	border-color: #999;
+	background: #b1b1b1;
+	color: #fff
+}
+
+.pageNext_news:hover {
+	border-color: #999;
+	background: #b1b1b1;
+	color: #fff
+}
+
+.pageEllipsis_news {
+	float: left;
+	width: 22px;
+	height: 22px;
+	line-height: 20px
+}
+
+.pageNow_news {
+	float: left;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	border: 1px solid #4175b5;
+	margin: 0 5px;
+	color: #fff;
+	background: #4a81c1
+}
+
+.newsBottom {
+	width: 100%;
+	height: 35px
+}
+
+.hide {
+	display: none
+}
+
+.ey-banner-wrap,
+.ey-banner {
+	height: 200px;
+	min-width: 100%;
+}
+
+.ey-banner-wrap .ey-banner {
+	min-width: auto
+}
+
+.ey-banner-list {
+	white-space: nowrap;
+	width: 100%;
+	font-size: 0
+}
+
+.ey-banner-list .ey-banner {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	_zoom: 1;
+	*display: inline
+}
+
+.ey-banner-list .ey-freeModel {
+	width: 120px;
+	height: 38px;
+	color: #4667f5;
+	border-radius: 19px;
+	text-align: center;
+	line-height: 38px;
+	font-size: 16px;
+	background: #fff;
+	display: block;
+	margin: 120px 0 0 357px;
+	position: relative
+}
+
+.ey-banner-responsive .ey-freeModel {
+	margin-left: 377px
+}
+
+.ey-banner-reg {
+	background: url(https://www.eyoucms.com/skin/help_xin/images/banner-reg.jpg) no-repeat center center
+}
+
+.ey-ask-panel {
+	width: 182px;
+	background: #fff;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 4
+}
+
+.ey-ask-panel .e-ask-telWrap {
+	height: 56px;
+	background: url(../image/home_ico.png) no-repeat -296px -1236px;
+	text-align: center;
+	color: #fff;
+	padding-top: 30px
+}
+
+.ey-ask-panel .e-ask-qqWrap {
+	padding-bottom: 14px
+}
+
+.ey-ask-panel .e-tel-txtWrap,
+.ey-ask-panel .ey-icon-tel,
+.ey-ask-panel .ey-icon-wx,
+.ey-ask-panel .e-qq-txtWrap {
+	display: inline-block;
+	*display: inline;
+	_zoom: 1;
+	vertical-align: middle;
+	width: auto;
+	text-align: left
+}
+
+.ey-ask-panel .ey-icon {
+	width: 30px;
+	height: 30px;
+	background: url(../image/home_ico.png) no-repeat -297px -1077px
+}
+
+.ey-ask-panel .e-tel-txtWrap .e-txt {
+	font-size: 16px;
+	line-height: 1
+}
+
+.ey-ask-panel .e-tel-txtWrap .e-tel {
+	font-size: 14px;
+	line-height: 1;
+	padding-top: 8px
+}
+
+.ey-ask-panel .ey-icon-wx {
+	background-position: -356px -1075px;
+	width: 33px;
+	height: 33px
+}
+
+.ey-ask-panel .e-qq-hd {
+	padding-top: 30px;
+	font-size: 18px;
+	color: #4ca5ee;
+	padding-bottom: 25px;
+	text-align: center
+}
+
+.ey-ask-panel .e-qq-list {
+	width: auto
+}
+
+.ey-ask-panel .e-qq-item {
+	height: 30px;
+	line-height: 30px;
+	background: #ccc;
+	width: 100px;
+	border-radius: 15px;
+	text-align: center;
+	margin: 0 auto 16px auto;
+	overflow: hidden;
+	background: #4fbce8;
+	color: #fff;
+	display: block
+}
+
+.ey-ask-panel .e-qq-item-proxy {
+	background: #fff;
+	color: #4ca5ee;
+	background: #fff;
+	border: solid 1px #4ca5ee;
+	height: 30px;
+	width: 98px
+}
+
+.ey-ask-panel .e-qq-item-before,
+.ey-ask-panel .e-qq-item-after,
+.ey-ask-panel .e-qq-item-proxy:hover {
+	background: url(../image/home_ico.png) no-repeat -297px -1130px;
+	color: #fff;
+	border-color: #fff;
+	border-color: transparent
+}
+
+.ey-ask-panel .e-qq-item-before:hover,
+.ey-ask-panel .e-qq-item-after:hover {
+	background: url(../image/home_ico.png) no-repeat -297px -1174px
+}
+
+.ey-toolArea {
+	width: 80px;
+	height: 240px;
+	font-size: 0;
+	text-align: center;
+	z-index: 99;
+	right: 20px;
+	position: fixed;
+	top: 274px;
+	right: 20px;
+	_position: absolute;
+	_top: expression(eval(document.documentElement.scrollTop)+274);
+	_right: 20px
+}
+
+.ey-toolArea .e-toolItem {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 0 10px;
+	margin-bottom: 14px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+	position: relative;
+	background: #fff
+}
+
+.ey-toolArea .e-toolAskItem {
+	width: 79px;
+	height: 79px;
+	margin: 0;
+	margin-bottom: 20px;
+	background: url(../image/home_ico.png) no-repeat -1505px -90px
+}
+
+.ey-toolArea .e-toolRebackItem .e-toolBlock,
+.ey-toolArea .e-toolRefeedItem .e-toolBlock {
+	overflow: hidden;
+	border-radius: 50%
+}
+
+.ey-toolArea .e-icon {
+	width: 20px;
+	height: 20px;
+	background: url(../image/home_ico.png) no-repeat -498px -1080px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -10px;
+	margin-top: -10px;
+	display: block
+}
+
+.ey-toolArea .e-icon-reback {
+	background-position: -553px -1080px
+}
+
+.ey-toolArea .e-icon-ask {
+	width: 30px;
+	height: 30px;
+	margin-left: -15px;
+	margin-top: -15px;
+	background-position: -428px -1075px
+}
+
+.ey-toolArea .e-toolBlock {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.ey-toolArea .e-toolAskItem {
+	position: relative
+}
+
+.ey-toolArea .e-toolAskItem.disable .ey-ask-panelWrap {
+	display: none
+}
+
+.ey-toolArea .e-toolAskItem.left .ey-ask-panelWrap {
+	transition: all .3s;
+	left: 0;
+	width: 0;
+	padding: 8px 0
+}
+
+.ey-toolArea .e-toolAskItem.left:hover .ey-ask-panelWrap {
+	width: 182px;
+	padding: 8px;
+	left: -190px
+}
+
+.ey-toolArea .e-toolAskItem.left .ey-ask-panel {
+	margin-left: 0
+}
+
+.ey-toolArea .e-toolAskItem.left .e-subArea,
+.ey-toolArea .e-toolAskItem.left:hover .e-subArea {
+	left: -12px
+}
+
+.ey-toolArea .e-toolAskItem:hover .e-subArea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 120px
+}
+
+.ey-toolArea .e-toolAskItemHover .ey-ask-panelWrap,
+.ey-toolArea .e-toolAskItemUnHover .ey-ask-panelWrap {
+	position: absolute;
+	left: 100px;
+	top: 0;
+	display: block;
+	font-size: 14px;
+	overflow: hidden;
+	width: 182px;
+	height: 365px;
+	padding: 8px 0;
+	margin: -8px
+}
+
+.ey-toolArea .e-toolAskItemHover .ey-ask-panel,
+.ey-toolArea .e-toolAskItemUnHover .ey-ask-panel {
+	margin-left: -184px
+}
+
+.ey-toolArea .e-toolAskItemHover .ey-ask-panel {
+	transition: all .3s .01s
+}
+
+.ey-toolArea .e-toolAskItemHover .ey-ask-panelWrap,
+.ey-toolArea .e-toolAskItemUnHover .ey-ask-panelWrap {
+	display: block;
+	width: 0
+}
+
+.ey-toolArea .e-toolAskItemHover .ey-ask-panelWrap {
+	transition: width .3s
+}
+
+.ey-toolArea .e-toolAskItemHover:hover .ey-ask-panel {
+	margin-left: 0
+}
+
+.ey-toolArea .e-toolAskItemHover:hover .ey-ask-panelWrap {
+	width: 182px;
+	padding: 8px
+}
+
+.ey-toolArea .e-toolRefeedItem {
+	font-size: 14px;
+	line-height: 60px
+}
+
+.ey-toolArea .e-toolRefeedItem .e-txt {
+	color: #333;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	color: #fff;
+	transition: opacity .3s
+}
+
+.ey-toolArea .e-toolRefeedItem .e-icon-refeed {
+	filter: alpha(opacity=100);
+	opacity: 1;
+	transition: opacity .3s
+}
+
+.ey-toolArea .e-toolRefeedItem:hover .e-icon-refeed {
+	opacity: 0;
+	filter: alpha(opacity=0)
+}
+
+.ey-toolArea .e-toolRefeedItem:hover .e-txt {
+	opacity: 1;
+	color: #333;
+	filter: alpha(opacity=100)
+}
+
+.button {
+	display: block;
+	color: inherit;
+	vertical-align: middle;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.button:focus {
+	outline: 0
+}
+
+.button>span {
+	vertical-align: middle
+}
+
+.button--nina {
+	box-sizing: border-box;
+	background: #7986cb;
+	color: #fff;
+	overflow: hidden;
+	-webkit-transition: background-color .3s;
+	transition: background-color .3s
+}
+
+.button--nina>span {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
+	-webkit-transition: -webkit-transform .3s, opacity .3s;
+	transition: transform .3s, opacity .3s
+}
+
+.button--nina::before {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: -webkit-transform .3s, opacity .3s;
+	transition: transform .3s, opacity .3s
+}
+
+.button--nina:hover {
+	background-color: rgba(255, 255, 255, .8)
+}
+
+.button--nina:hover::before {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0)
+}
+
+.button--nina:hover>span {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+.button--nina:hover>span:nth-child(1) {
+	-webkit-transition-delay: .045s;
+	transition-delay: .045s
+}
+
+.button--nina:hover>span:nth-child(2) {
+	-webkit-transition-delay: .09s;
+	transition-delay: .09s
+}
+
+.button--nina:hover>span:nth-child(3) {
+	-webkit-transition-delay: .135s;
+	transition-delay: .135s
+}
+
+.button--nina:hover>span:nth-child(4) {
+	-webkit-transition-delay: .18s;
+	transition-delay: .18s
+}
+
+@media screen and (max-width:1680px) {
+	.ey-banner-list .ey-freeModel {
+		margin-left: 234px
+	}
+
+	.ey-banner-responsive .ey-freeModel {
+		margin-left: 254px
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.ey-banner-list .ey-freeModel {
+		margin-left: 6px
+	}
+
+	.ey-banner-responsive .ey-freeModel {
+		margin-left: 26px
+	}
+}

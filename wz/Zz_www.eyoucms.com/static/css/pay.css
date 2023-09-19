@@ -1,0 +1,24 @@
+.ChannelContent{ line-height:2.0em; font-size:16px; padding: 15px 20px; }
+.ChannelSContent, .ChannelSContent p{ line-height:1.8em}
+.ChannelContent a{ color: #ff9d02}
+.ChannelSContent a{ color: #ff9d02}
+.ChannelSContent img, .InfoContent img{ max-width:100% }
+.right_body { zoom:1;  border-top:0; border-bottom:0 }
+.right_body:after{ content: ""; display: block; height: 0; clear: both; }
+.single{ width:1200px;margin: 0 auto; }
+#right { float:left; width:1200px; border-left:0px solid #E5E5E5; padding-left:0px; }
+table.cmstable{margin: 3px; padding: 0px; width: 99%; border-collapse: collapse; border:1px solid #ddd;}
+table.cmstable tr{ cursor: pointer}
+table.cmstable tr:hover{ background:#F5F5F5; }
+table.cmstable .title{font-weight:bold; background:#F5F5F5; color:#CB061D; height:26px; line-height:26px; font-size:16px; padding:5px}
+table.cmstable th{ padding:10px; text-align:center; font-weight:normal; border:1px solid #ddd;border-top:none;border-left:none;}
+table.cmstable td{ padding:10px; text-align:center; border:1px solid #ddd;border-top:none;border-left:none;}
+table.cmstable .price{ color:#CB061D;}
+table.cmstable .oem{ background:#F5F5F5; }
+table.cmstable td .times{color:red; font-weight:bold;}
+table.cmstable td .radic{color:green; font-weight:bold;}
+table.cmstable tr .cs{color:red; font-size:18px; margin-right:3px; font-family:'Microsoft YaHei'}
+table.cmstable tr.row-title td{padding:10px 0; font-size:22px;}
+table.cmstable tr.row-price td{ color:red; font-size:26px;font-family: Georgia;}
+.buynow{color: #fff !important; background-color: #0aa3de; border-color: #0aa3de; border-radius:20px; padding: 7px 28px;}
+.buynow:hover{ opacity:.8;}

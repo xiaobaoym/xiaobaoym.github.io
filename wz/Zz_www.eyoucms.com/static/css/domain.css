@@ -1,0 +1,339 @@
+.domain-wrapper {
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+/*域名查询 */
+.domain-wrapper .search-domain {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.domain-wrapper .search-domain .search-content {
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.domain-wrapper .search-domain #keywords {
+    padding: 0 22px;
+    box-shadow: none;
+    color: #666;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    background: #fff;
+    display: block;
+    border: 1px solid #cccccc;
+    border-right: none;
+    margin: 0;
+}
+.domain-wrapper .search-domain #keywords:focus {
+    border-color: #cccccc;
+    outline: 0;
+}
+.domain-wrapper .search-domain .search-content input::-webkit-input-placeholder { 
+/* WebKit browsers，webkit内核浏览器 */
+color: #ccc; 
+font-size: 14px;
+} 
+.domain-wrapper .search-domain .search-content input:-moz-placeholder { 
+/* Mozilla Firefox 4 to 18 */ 
+color: #ccc; 
+font-size: 14px;
+} 
+.domain-wrapper .search-domain .search-content input::-moz-placeholder { 
+/* Mozilla Firefox 19+ */ 
+color: #ccc; 
+font-size: 14px;
+} 
+.domain-wrapper .search-domain .search-content input:-ms-input-placeholder { 
+/* Internet Explorer 10+ */ 
+color: #ccc; 
+font-size: 14px;
+}
+
+
+
+.domain-wrapper .search-domain span {
+    display: block;
+    width: 110px;
+    min-width: 110px;
+    height: 50px;
+    line-height: 50px;
+    background: #ff6f06;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.domain-wrapper .search-domain span:hover {
+    opacity: .8;
+}
+
+.domain-wrapper .search-domain span img {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/*域名查询 */
+.suffix {
+    overflow: hidden;
+    padding: 15px 0;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.suffix input {
+    width: auto;
+    margin: 0;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.suffix label {
+    float: left;
+    width: 88px;
+    margin-right: 20px;
+    color: #000;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.suffix label .icon {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    background-image: url(../image/hot.png);
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+/*查询结果*/
+.ey-query-loading {
+    overflow: hidden;
+    padding: 15px 0;
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #555;
+}
+
+.ey-query-loading img {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 26px;
+}
+
+.ey-query-result {
+    overflow: hidden;
+    padding: 3px 0;
+    display: none;
+}
+
+.ey-query-result h2 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 8px;
+}
+
+.ey-query-result .domain-avail h2 {
+    color: #019a66;
+}
+
+.ey-query-result .domain-reg h2 {
+    color: #ff6b26;
+}
+
+.ey-domainlist {
+    overflow: hidden;
+}
+
+.ey-domainlist .domain-item {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd;
+    overflow: hidden;
+}
+
+.ey-domainlist .domain-item:hover {
+    background: #f8f8f8;
+}
+
+.ey-domainlist .name {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4B4B4B;
+    text-indent: 15px;
+}
+.ey-domainlist .name .yes{
+    font-size: 12px;
+    padding: 2px 6px;
+	font-weight: unset;
+    color: #63ba4d;
+    background: #edf4eb;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.ey-domainlist .name .no{
+    font-size: 12px;
+    padding: 2px 6px;
+	font-weight: unset;
+    color: #777;
+    background: #e5e5e5;
+    line-height: 20px;
+    margin-left: 10px;
+}
+#no_can_reg_domain .name {
+    font-weight: unset;
+}
+
+
+.domain-reg .name {
+    color: #888;
+}
+
+.ey-domainlist .price {
+    float: right;
+    text-align: right;
+    padding: 5px 10px;
+}
+
+.ey-domainlist .premium {
+    color: red;
+    margin-right: 10px;
+}
+
+.ey-domainlist .lineprice {
+    color: #aaa;
+    margin-right: 10px;
+    text-decoration: line-through;
+    padding: 0 3px;
+    font-size: 13px;
+}
+
+.ey-domainlist .buy {
+    float: right;
+    width: 85px;
+    background: #ff6c3a;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ey-domainlist .premium1 {
+    background: none;
+    color: red;
+}
+
+.ey-domainlist .buy:hover {
+    opacity: .8;
+}
+
+.ey-domainlist .view {
+    float: right;
+    width: 70px;
+    color: #333;
+    cursor: pointer;
+}
+
+/*whois信息*/
+.whois {
+    overflow: hidden;
+    padding: 8px;
+    width: 560px;
+    min-height: 300px;
+}
+
+.whois .item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    width: 100%;
+}
+
+.whois .item:last-child {
+    border-bottom: 0;
+}
+
+.whois .item b {
+    color: #555;
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+}
+
+.whois .loading {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+/* 移动端：保持电脑端和手机端的代码都一样 */
+@media screen and (max-width: 720px) {
+    .domain-wrapper .search-domain .search-content {
+        width: 96%;
+    }
+
+    .search .search-content,
+    .suffix {
+        width: 90% !important;
+    }
+
+    .domain-wrapper {
+        width: 100%;
+    }
+
+    .ey-domainlist .buy {
+        width: 60px;
+        margin-right: 8px;
+    }
+
+    .ey-domainlist .name {
+        font-size: 14px;
+    }
+
+    .ey-domainlist .view {
+        margin-right: 8px;
+        display: none;
+    }
+
+    .suffix label {
+        width: 75px;
+        margin: 3px 0;
+    }
+
+    .suffix input {
+        min-height: 1em;
+    }
+
+    .search #keywords {
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 8px;
+    }
+
+    .search span {
+        width: 100px;
+        min-width: 100px;
+        height: 42px;
+        line-height: 42px;
+    }
+}
