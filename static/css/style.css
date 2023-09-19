@@ -107,7 +107,7 @@ head
   #head { height:60px;}
   #head .logo{width:40%;line-height:60px;}
   #head .logo img{ height:30px;}
-  #head .wap{ width:40%; line-height:40px;}
+  #head .wap{ width:40%; line-height:60px;}
   #head .wap>a img{ height:30px;}
 
   #wap{ top:40px;}
@@ -1254,10 +1254,10 @@ foot
 .center div{margin: 0 auto}
 .center div img{width:67%}
 
-.w100 .w40{position: fixed;right: 0;bottom:30px;z-index: 666;background-color: #fff;}
+
 @media only screen and (max-width: 1280px){
 		#dituContent{width: 90%!important;height: 450px!important;float: left!important}
 	.w100 .w60{width: 100%!important}
 		.w40 img{width: 100%}
-		
+		.w100 .w40{position: fixed;right: 0;bottom:30px;z-index: 666;background-color: #fff;}
 	}
