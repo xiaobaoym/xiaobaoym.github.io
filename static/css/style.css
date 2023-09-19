@@ -104,11 +104,11 @@ head
 }
 
 @media only screen and (max-width: 420px) {
-  #head { height:40px;}
-  #head .logo{width:40%;line-height:40px;}
-  #head .logo img{ height:18px;}
+  #head { height:60px;}
+  #head .logo{width:40%;line-height:60px;}
+  #head .logo img{ height:30px;}
   #head .wap{ width:40%; line-height:40px;}
-  #head .wap>a img{ height:18px;}
+  #head .wap>a img{ height:30px;}
 
   #wap{ top:40px;}
   #wap>.search{ padding:15px;}
