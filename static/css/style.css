@@ -1197,7 +1197,7 @@ foot
 #foot .nav-right .gotop>a{ display:block; font-size:18px; color:#555;}
 #foot .nav-right .gotop>a>img{ margin-right:6px;}
 #foot .nav-right .qrcode{position:relative;}
-#foot .nav-right .qrcode img{ width:104px; height:auto;margin-left: -35px;position: absolute;top: -100px;left: 0px}
+#foot .nav-right .qrcode img{ width:104px; height:auto;margin-left: -35px;position: absolute;top: -100px;right: 0px}
 #foot .nav-right .qrcode .tips{ position:absolute; right:120px; bottom:0; width:140px; line-height:25px; font-size:14px; color:#555; text-align:left;}
 
 @media only screen and (max-width: 1280px){
