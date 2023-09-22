@@ -305,4 +305,9 @@ if(layerDialog==1){
   }
 }
 
-
+$ahref=$('<a></a>');
+	$ahref.attr('href','index.html');
+	$ahref.css('margin-left','27px')
+	//$div1.text('以下模板制网站制作标配仅需1999元（包含电脑端网站+手机端网站+1年阿里云服务器），选配（微信小程序499~999元，抖音可视化小程序统一499元）')
+	$ahref.html("返回首页")
+    $(".gotop").append($ahref);
